@@ -1,3 +1,6 @@
+import sys
+
+
 def init_result():
     return {
         "model_name": {},
@@ -195,4 +198,6 @@ def dynamic(
 
 
 if __name__ == "__main__":
-    dynamic("instances/0", "dyn_out")
+    file = sys.argv[1] if len(sys.argv) > 1 else "0"
+    lastDay = int(sys.argv[2]) if len(sys.argv) > 2 else 364
+    dynamic(f"instances/{file}", "dyn_out", lastDay=lastDay)
