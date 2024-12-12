@@ -12,7 +12,7 @@ def static(
     file,
     fileNameOut,
     firstDay=0,
-    lastDay=365,
+    lastDay=364,
     timeLimit=12 * 60 * 60,
     ip_fkt=IP_prt,
     fPrio={"ftrans": 0, "fpriv": 1},
@@ -49,6 +49,8 @@ def static(
         useVarMrt=useVarMrt,
     )
     endTime = time()
+    if not newResult:
+        newResult = {"status": "infeasible"}
     newResult["runtime"] = {firstDay: endTime - startTime}
     result = append_result(result, newResult)
 
@@ -61,20 +63,19 @@ def static(
 
 
 if __name__ == "__main__":
-    from Ipr import IP
+    from Ipr import IP, capacity_constraint_pr,sex_separation_constraint_pr
     from Iprt import IP_prt
 
     static(
-        "instances/0",
-        "static_out",
+        "2019/AU01",
+        "testout",
         timeLimit=60,
         constraints=[
-            capacity_constraint,
-            sex_separation_constraint,
-            single_room_constraint,
+            capacity_constraint_pr,
+            sex_separation_constraint_pr,
         ],
         useVarMrt=True,
-        ip_fkt=IP_prt,
-        fPrio={"ftrans": 1, "fpriv": 0},
-        fWeight={"ftrans": -1, "fpriv": 0},
+        ip_fkt=IP,
+        fPrio={"ftrans": 0, "fpriv": 0},
+        fWeight={"ftrans": 0, "fpriv": 0},
     )

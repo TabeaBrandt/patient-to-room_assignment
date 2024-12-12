@@ -1,0 +1,5584 @@
+{
+    "model_name": {
+        "0": "P",
+        "1": "P",
+        "2": "P",
+        "3": "P",
+        "4": "P",
+        "5": "P",
+        "6": "P",
+        "7": "P",
+        "8": "P",
+        "9": "P",
+        "10": "P",
+        "11": "P",
+        "12": "P",
+        "13": "P",
+        "14": "P",
+        "15": "P",
+        "16": "P",
+        "17": "P",
+        "18": "P",
+        "19": "P",
+        "20": "P",
+        "21": "P",
+        "22": "P",
+        "23": "P",
+        "24": "P",
+        "25": "P",
+        "26": "P",
+        "27": "P",
+        "28": "P",
+        "29": "P",
+        "30": "P",
+        "31": "P",
+        "32": "P",
+        "33": "P",
+        "34": "P",
+        "35": "P",
+        "36": "P",
+        "37": "P",
+        "38": "P",
+        "39": "P",
+        "40": "P",
+        "41": "O",
+        "42": "P*",
+        "43": "P",
+        "44": "P",
+        "45": "P*",
+        "46": "P",
+        "47": "P",
+        "48": "P",
+        "49": "P",
+        "50": "P",
+        "51": "P",
+        "52": "P",
+        "53": "P",
+        "54": "P",
+        "55": "P",
+        "56": "P",
+        "57": "P",
+        "58": "P",
+        "59": "P",
+        "60": "P",
+        "61": "P",
+        "62": "P",
+        "63": "P",
+        "64": "P",
+        "65": "P",
+        "66": "P",
+        "67": "P",
+        "68": "P",
+        "69": "P",
+        "70": "P*",
+        "71": "P",
+        "72": "P",
+        "73": "P",
+        "74": "P",
+        "75": "P",
+        "76": "P",
+        "77": "P",
+        "78": "P",
+        "79": "P",
+        "80": "P",
+        "81": "P",
+        "82": "P",
+        "83": "P",
+        "84": "P",
+        "85": "P",
+        "86": "P",
+        "87": "P",
+        "88": "P",
+        "89": "P",
+        "90": "P",
+        "91": "P",
+        "92": "P",
+        "93": "P",
+        "94": "P",
+        "95": "P",
+        "96": "P",
+        "97": "P",
+        "98": "P",
+        "99": "P",
+        "100": "P",
+        "101": "P",
+        "102": "P",
+        "103": "P",
+        "104": "P",
+        "105": "P",
+        "106": "P",
+        "107": "P",
+        "108": "P",
+        "109": "P",
+        "110": "P",
+        "111": "P",
+        "112": "P",
+        "113": "P",
+        "114": "P",
+        "115": "P*",
+        "116": "P",
+        "117": "P",
+        "118": "P",
+        "119": "P",
+        "120": "P",
+        "121": "P",
+        "122": "P",
+        "123": "P",
+        "124": "P",
+        "125": "P",
+        "126": "P",
+        "127": "P",
+        "128": "P",
+        "129": "P",
+        "130": "P",
+        "131": "P",
+        "132": "P",
+        "133": "P",
+        "134": "P",
+        "135": "P",
+        "136": "P",
+        "137": "P",
+        "138": "P",
+        "139": "P*",
+        "140": "P",
+        "141": "P",
+        "142": "P",
+        "143": "P",
+        "144": "P",
+        "145": "P",
+        "146": "P*",
+        "147": "P",
+        "148": "O",
+        "149": "O",
+        "150": "O",
+        "151": "P*",
+        "152": "P",
+        "153": "P",
+        "154": "P",
+        "155": "P",
+        "156": "P",
+        "157": "P",
+        "158": "P",
+        "159": "P",
+        "160": "P",
+        "161": "P",
+        "162": "P",
+        "163": "P*",
+        "164": "P",
+        "165": "P",
+        "166": "P",
+        "167": "P",
+        "168": "P",
+        "169": "O",
+        "170": "O",
+        "171": "O",
+        "172": "P*",
+        "173": "P",
+        "174": "P",
+        "175": "P",
+        "176": "P",
+        "177": "P",
+        "178": "P",
+        "179": "P",
+        "180": "P",
+        "181": "P",
+        "182": "P",
+        "183": "P",
+        "184": "P",
+        "185": "O",
+        "186": "O",
+        "187": "O",
+        "188": "O",
+        "189": "O",
+        "190": "O",
+        "191": "O",
+        "192": "O",
+        "193": "O",
+        "194": "O",
+        "195": "O",
+        "196": "O",
+        "197": "O",
+        "198": "O",
+        "199": "O",
+        "200": "O",
+        "201": "O",
+        "202": "O",
+        "203": "O",
+        "204": "O",
+        "205": "O",
+        "206": "O",
+        "207": "O",
+        "208": "O",
+        "209": "O",
+        "210": "O",
+        "211": "O",
+        "212": "O",
+        "213": "O",
+        "214": "O",
+        "215": "O",
+        "216": "P*",
+        "217": "P",
+        "218": "P",
+        "219": "P",
+        "220": "P*",
+        "221": "P",
+        "222": "P*",
+        "223": "P",
+        "224": "P",
+        "225": "P",
+        "226": "P",
+        "227": "P",
+        "228": "P",
+        "229": "O",
+        "230": "O",
+        "231": "O",
+        "232": "O",
+        "233": "O",
+        "234": "O",
+        "235": "O",
+        "236": "O",
+        "237": "O",
+        "238": "P*",
+        "239": "P",
+        "240": "P",
+        "241": "O",
+        "242": "O",
+        "243": "P*",
+        "244": "P",
+        "245": "P",
+        "246": "P",
+        "247": "O",
+        "248": "O",
+        "249": "O",
+        "250": "O",
+        "251": "O",
+        "252": "O",
+        "253": "O",
+        "254": "O",
+        "255": "O",
+        "256": "O",
+        "257": "O",
+        "258": "O",
+        "259": "O",
+        "260": "P*",
+        "261": "P",
+        "262": "P",
+        "263": "P",
+        "264": "O",
+        "265": "O",
+        "266": "O",
+        "267": "O",
+        "268": "O",
+        "269": "O",
+        "270": "O",
+        "271": "O",
+        "272": "O",
+        "273": "O",
+        "274": "O",
+        "275": "O",
+        "276": "P*",
+        "277": "P",
+        "278": "O",
+        "279": "O",
+        "280": "O",
+        "281": "O",
+        "282": "O",
+        "283": "O",
+        "284": "O",
+        "285": "O",
+        "286": "O",
+        "287": "O",
+        "288": "O",
+        "289": "O",
+        "290": "O",
+        "291": "O",
+        "292": "O",
+        "293": "O",
+        "294": "O",
+        "295": "O",
+        "296": "O",
+        "297": "O",
+        "298": "O",
+        "299": "O",
+        "300": "O",
+        "301": "O",
+        "302": "O",
+        "303": "P*",
+        "304": "O",
+        "305": "O",
+        "306": "O",
+        "307": "O",
+        "308": "O",
+        "309": "O",
+        "310": "O",
+        "311": "O",
+        "312": "O",
+        "313": "O",
+        "314": "O",
+        "315": "O",
+        "316": "O",
+        "317": "P*",
+        "318": "P",
+        "319": "P",
+        "320": "O",
+        "321": "P*",
+        "322": "P",
+        "323": "P",
+        "324": "P",
+        "325": "O",
+        "326": "O",
+        "327": "O",
+        "328": "O",
+        "329": "O",
+        "330": "O",
+        "331": "O",
+        "332": "O",
+        "333": "O",
+        "334": "O",
+        "335": "P*",
+        "336": "P",
+        "337": "P",
+        "338": "P",
+        "339": "P",
+        "340": "P",
+        "341": "O",
+        "342": "O",
+        "343": "P*",
+        "344": "P",
+        "345": "O",
+        "346": "O",
+        "347": "P*",
+        "348": "P",
+        "349": "P",
+        "350": "P",
+        "351": "P",
+        "352": "P",
+        "353": "P",
+        "354": "P",
+        "355": "P",
+        "356": "O",
+        "357": "P",
+        "358": "P",
+        "359": "O",
+        "360": "O",
+        "361": "P",
+        "362": "P",
+        "363": "P",
+        "364": "P"
+    },
+    "objective_setup": {
+        "0": {
+            "privates": 0
+        },
+        "1": {
+            "privates": 0
+        },
+        "2": {
+            "privates": 0
+        },
+        "3": {
+            "privates": 0
+        },
+        "4": {
+            "privates": 0
+        },
+        "5": {
+            "privates": 0
+        },
+        "6": {
+            "privates": 0
+        },
+        "7": {
+            "privates": 0
+        },
+        "8": {
+            "privates": 0
+        },
+        "9": {
+            "privates": 0
+        },
+        "10": {
+            "privates": 0
+        },
+        "11": {
+            "privates": 0
+        },
+        "12": {
+            "privates": 0
+        },
+        "13": {
+            "privates": 0
+        },
+        "14": {
+            "privates": 0
+        },
+        "15": {
+            "privates": 0
+        },
+        "16": {
+            "privates": 0
+        },
+        "17": {
+            "privates": 0
+        },
+        "18": {
+            "privates": 0
+        },
+        "19": {
+            "privates": 0
+        },
+        "20": {
+            "privates": 0
+        },
+        "21": {
+            "privates": 0
+        },
+        "22": {
+            "privates": 0
+        },
+        "23": {
+            "privates": 0
+        },
+        "24": {
+            "privates": 0
+        },
+        "25": {
+            "privates": 0
+        },
+        "26": {
+            "privates": 0
+        },
+        "27": {
+            "privates": 0
+        },
+        "28": {
+            "privates": 0
+        },
+        "29": {
+            "privates": 0
+        },
+        "30": {
+            "privates": 0
+        },
+        "31": {
+            "privates": 0
+        },
+        "32": {
+            "privates": 0
+        },
+        "33": {
+            "privates": 0
+        },
+        "34": {
+            "privates": 0
+        },
+        "35": {
+            "privates": 0
+        },
+        "36": {
+            "privates": 0
+        },
+        "37": {
+            "privates": 0
+        },
+        "38": {
+            "privates": 0
+        },
+        "39": {
+            "privates": 0
+        },
+        "40": {
+            "privates": 0
+        },
+        "41": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "42": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "43": {
+            "privates": 0
+        },
+        "44": {
+            "privates": 0
+        },
+        "45": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "46": {
+            "privates": 0
+        },
+        "47": {
+            "privates": 0
+        },
+        "48": {
+            "privates": 0
+        },
+        "49": {
+            "privates": 0
+        },
+        "50": {
+            "privates": 0
+        },
+        "51": {
+            "privates": 0
+        },
+        "52": {
+            "privates": 0
+        },
+        "53": {
+            "privates": 0
+        },
+        "54": {
+            "privates": 0
+        },
+        "55": {
+            "privates": 0
+        },
+        "56": {
+            "privates": 0
+        },
+        "57": {
+            "privates": 0
+        },
+        "58": {
+            "privates": 0
+        },
+        "59": {
+            "privates": 0
+        },
+        "60": {
+            "privates": 0
+        },
+        "61": {
+            "privates": 0
+        },
+        "62": {
+            "privates": 0
+        },
+        "63": {
+            "privates": 0
+        },
+        "64": {
+            "privates": 0
+        },
+        "65": {
+            "privates": 0
+        },
+        "66": {
+            "privates": 0
+        },
+        "67": {
+            "privates": 0
+        },
+        "68": {
+            "privates": 0
+        },
+        "69": {
+            "privates": 0
+        },
+        "70": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "71": {
+            "privates": 0
+        },
+        "72": {
+            "privates": 0
+        },
+        "73": {
+            "privates": 0
+        },
+        "74": {
+            "privates": 0
+        },
+        "75": {
+            "privates": 0
+        },
+        "76": {
+            "privates": 0
+        },
+        "77": {
+            "privates": 0
+        },
+        "78": {
+            "privates": 0
+        },
+        "79": {
+            "privates": 0
+        },
+        "80": {
+            "privates": 0
+        },
+        "81": {
+            "privates": 0
+        },
+        "82": {
+            "privates": 0
+        },
+        "83": {
+            "privates": 0
+        },
+        "84": {
+            "privates": 0
+        },
+        "85": {
+            "privates": 0
+        },
+        "86": {
+            "privates": 0
+        },
+        "87": {
+            "privates": 0
+        },
+        "88": {
+            "privates": 0
+        },
+        "89": {
+            "privates": 0
+        },
+        "90": {
+            "privates": 0
+        },
+        "91": {
+            "privates": 0
+        },
+        "92": {
+            "privates": 0
+        },
+        "93": {
+            "privates": 0
+        },
+        "94": {
+            "privates": 0
+        },
+        "95": {
+            "privates": 0
+        },
+        "96": {
+            "privates": 0
+        },
+        "97": {
+            "privates": 0
+        },
+        "98": {
+            "privates": 0
+        },
+        "99": {
+            "privates": 0
+        },
+        "100": {
+            "privates": 0
+        },
+        "101": {
+            "privates": 0
+        },
+        "102": {
+            "privates": 0
+        },
+        "103": {
+            "privates": 0
+        },
+        "104": {
+            "privates": 0
+        },
+        "105": {
+            "privates": 0
+        },
+        "106": {
+            "privates": 0
+        },
+        "107": {
+            "privates": 0
+        },
+        "108": {
+            "privates": 0
+        },
+        "109": {
+            "privates": 0
+        },
+        "110": {
+            "privates": 0
+        },
+        "111": {
+            "privates": 0
+        },
+        "112": {
+            "privates": 0
+        },
+        "113": {
+            "privates": 0
+        },
+        "114": {
+            "privates": 0
+        },
+        "115": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "116": {
+            "privates": 0
+        },
+        "117": {
+            "privates": 0
+        },
+        "118": {
+            "privates": 0
+        },
+        "119": {
+            "privates": 0
+        },
+        "120": {
+            "privates": 0
+        },
+        "121": {
+            "privates": 0
+        },
+        "122": {
+            "privates": 0
+        },
+        "123": {
+            "privates": 0
+        },
+        "124": {
+            "privates": 0
+        },
+        "125": {
+            "privates": 0
+        },
+        "126": {
+            "privates": 0
+        },
+        "127": {
+            "privates": 0
+        },
+        "128": {
+            "privates": 0
+        },
+        "129": {
+            "privates": 0
+        },
+        "130": {
+            "privates": 0
+        },
+        "131": {
+            "privates": 0
+        },
+        "132": {
+            "privates": 0
+        },
+        "133": {
+            "privates": 0
+        },
+        "134": {
+            "privates": 0
+        },
+        "135": {
+            "privates": 0
+        },
+        "136": {
+            "privates": 0
+        },
+        "137": {
+            "privates": 0
+        },
+        "138": {
+            "privates": 0
+        },
+        "139": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "140": {
+            "privates": 0
+        },
+        "141": {
+            "privates": 0
+        },
+        "142": {
+            "privates": 0
+        },
+        "143": {
+            "privates": 0
+        },
+        "144": {
+            "privates": 0
+        },
+        "145": {
+            "privates": 0
+        },
+        "146": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "147": {
+            "privates": 0
+        },
+        "148": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "149": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "150": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "151": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "152": {
+            "privates": 0
+        },
+        "153": {
+            "privates": 0
+        },
+        "154": {
+            "privates": 0
+        },
+        "155": {
+            "privates": 0
+        },
+        "156": {
+            "privates": 0
+        },
+        "157": {
+            "privates": 0
+        },
+        "158": {
+            "privates": 0
+        },
+        "159": {
+            "privates": 0
+        },
+        "160": {
+            "privates": 0
+        },
+        "161": {
+            "privates": 0
+        },
+        "162": {
+            "privates": 0
+        },
+        "163": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "164": {
+            "privates": 0
+        },
+        "165": {
+            "privates": 0
+        },
+        "166": {
+            "privates": 0
+        },
+        "167": {
+            "privates": 0
+        },
+        "168": {
+            "privates": 0
+        },
+        "169": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "170": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "171": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "172": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "173": {
+            "privates": 0
+        },
+        "174": {
+            "privates": 0
+        },
+        "175": {
+            "privates": 0
+        },
+        "176": {
+            "privates": 0
+        },
+        "177": {
+            "privates": 0
+        },
+        "178": {
+            "privates": 0
+        },
+        "179": {
+            "privates": 0
+        },
+        "180": {
+            "privates": 0
+        },
+        "181": {
+            "privates": 0
+        },
+        "182": {
+            "privates": 0
+        },
+        "183": {
+            "privates": 0
+        },
+        "184": {
+            "privates": 0
+        },
+        "185": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "186": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "187": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "188": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "189": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "190": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "191": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "192": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "193": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "194": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "195": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "196": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "197": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "198": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "199": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "200": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "201": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "202": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "203": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "204": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "205": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "206": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "207": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "208": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "209": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "210": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "211": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "212": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "213": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "214": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "215": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "216": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "217": {
+            "privates": 0
+        },
+        "218": {
+            "privates": 0
+        },
+        "219": {
+            "privates": 0
+        },
+        "220": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "221": {
+            "privates": 0
+        },
+        "222": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "223": {
+            "privates": 0
+        },
+        "224": {
+            "privates": 0
+        },
+        "225": {
+            "privates": 0
+        },
+        "226": {
+            "privates": 0
+        },
+        "227": {
+            "privates": 0
+        },
+        "228": {
+            "privates": 0
+        },
+        "229": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "230": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "231": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "232": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "233": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "234": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "235": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "236": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "237": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "238": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "239": {
+            "privates": 0
+        },
+        "240": {
+            "privates": 0
+        },
+        "241": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "242": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "243": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "244": {
+            "privates": 0
+        },
+        "245": {
+            "privates": 0
+        },
+        "246": {
+            "privates": 0
+        },
+        "247": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "248": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "249": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "250": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "251": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "252": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "253": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "254": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "255": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "256": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "257": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "258": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "259": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "260": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "261": {
+            "privates": 0
+        },
+        "262": {
+            "privates": 0
+        },
+        "263": {
+            "privates": 0
+        },
+        "264": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "265": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "266": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "267": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "268": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "269": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "270": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "271": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "272": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "273": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "274": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "275": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "276": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "277": {
+            "privates": 0
+        },
+        "278": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "279": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "280": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "281": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "282": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "283": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "284": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "285": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "286": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "287": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "288": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "289": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "290": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "291": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "292": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "293": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "294": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "295": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "296": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "297": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "298": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "299": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "300": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "301": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "302": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "303": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "304": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "305": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "306": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "307": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "308": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "309": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "310": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "311": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "312": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "313": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "314": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "315": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "316": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "317": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "318": {
+            "privates": 0
+        },
+        "319": {
+            "privates": 0
+        },
+        "320": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "321": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "322": {
+            "privates": 0
+        },
+        "323": {
+            "privates": 0
+        },
+        "324": {
+            "privates": 0
+        },
+        "325": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "326": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "327": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "328": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "329": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "330": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "331": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "332": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "333": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "334": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "335": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "336": {
+            "privates": 0
+        },
+        "337": {
+            "privates": 0
+        },
+        "338": {
+            "privates": 0
+        },
+        "339": {
+            "privates": 0
+        },
+        "340": {
+            "privates": 0
+        },
+        "341": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "342": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "343": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "344": {
+            "privates": 0
+        },
+        "345": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "346": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "347": {
+            "privates": 0,
+            "transfers": 0
+        },
+        "348": {
+            "privates": 0
+        },
+        "349": {
+            "privates": 0
+        },
+        "350": {
+            "privates": 0
+        },
+        "351": {
+            "privates": 0
+        },
+        "352": {
+            "privates": 0
+        },
+        "353": {
+            "privates": 0
+        },
+        "354": {
+            "privates": 0
+        },
+        "355": {
+            "privates": 0
+        },
+        "356": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "357": {
+            "privates": 0
+        },
+        "358": {
+            "privates": 0
+        },
+        "359": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "360": {
+            "privates": 0,
+            "transfers": 1
+        },
+        "361": {
+            "privates": 0
+        },
+        "362": {
+            "privates": 0
+        },
+        "363": {
+            "privates": 0
+        },
+        "364": {
+            "privates": 0
+        }
+    },
+    "patient_assignments": {
+        "0": [
+            {
+                "start": 0,
+                "end": 1,
+                "roomName": "7"
+            }
+        ],
+        "1": [
+            {
+                "start": 0,
+                "end": 42,
+                "roomName": "0"
+            }
+        ],
+        "2": [
+            {
+                "start": 2,
+                "end": 6,
+                "roomName": "0"
+            }
+        ],
+        "4": [
+            {
+                "start": 3,
+                "end": 17,
+                "roomName": "6"
+            }
+        ],
+        "5": [
+            {
+                "start": 4,
+                "end": 13,
+                "roomName": "5"
+            }
+        ],
+        "6": [
+            {
+                "start": 5,
+                "end": 24,
+                "roomName": "6"
+            }
+        ],
+        "8": [
+            {
+                "start": 6,
+                "end": 11,
+                "roomName": "3"
+            }
+        ],
+        "9": [
+            {
+                "start": 6,
+                "end": 19,
+                "roomName": "1"
+            }
+        ],
+        "10": [
+            {
+                "start": 7,
+                "end": 29,
+                "roomName": "5"
+            }
+        ],
+        "12": [
+            {
+                "start": 9,
+                "end": 27,
+                "roomName": "1"
+            }
+        ],
+        "18": [
+            {
+                "start": 14,
+                "end": 61,
+                "roomName": "0"
+            }
+        ],
+        "19": [
+            {
+                "start": 17,
+                "end": 17,
+                "roomName": "3"
+            }
+        ],
+        "21": [
+            {
+                "start": 17,
+                "end": 36,
+                "roomName": "3"
+            }
+        ],
+        "23": [
+            {
+                "start": 19,
+                "end": 40,
+                "roomName": "2"
+            },
+            {
+                "start": 41,
+                "end": 43,
+                "roomName": "4"
+            }
+        ],
+        "29": [
+            {
+                "start": 32,
+                "end": 42,
+                "roomName": "3"
+            }
+        ],
+        "37": [
+            {
+                "start": 39,
+                "end": 41,
+                "roomName": "6"
+            }
+        ],
+        "53": [
+            {
+                "start": 55,
+                "end": 54,
+                "roomName": "0"
+            }
+        ],
+        "67": [
+            {
+                "start": 70,
+                "end": 74,
+                "roomName": "3"
+            }
+        ],
+        "71": [
+            {
+                "start": 78,
+                "end": 95,
+                "roomName": "6"
+            }
+        ],
+        "3": [
+            {
+                "start": 3,
+                "end": 4,
+                "roomName": "4"
+            }
+        ],
+        "17": [
+            {
+                "start": 14,
+                "end": 14,
+                "roomName": "7"
+            }
+        ],
+        "20": [
+            {
+                "start": 17,
+                "end": 17,
+                "roomName": "2"
+            }
+        ],
+        "11": [
+            {
+                "start": 9,
+                "end": 10,
+                "roomName": "2"
+            }
+        ],
+        "16": [
+            {
+                "start": 13,
+                "end": 19,
+                "roomName": "4"
+            }
+        ],
+        "7": [
+            {
+                "start": 6,
+                "end": 6,
+                "roomName": "4"
+            }
+        ],
+        "14": [
+            {
+                "start": 13,
+                "end": 13,
+                "roomName": "7"
+            }
+        ],
+        "41": [
+            {
+                "start": 43,
+                "end": 43,
+                "roomName": "6"
+            }
+        ],
+        "13": [
+            {
+                "start": 10,
+                "end": 47,
+                "roomName": "7"
+            }
+        ],
+        "15": [
+            {
+                "start": 13,
+                "end": 18,
+                "roomName": "2"
+            }
+        ],
+        "22": [
+            {
+                "start": 18,
+                "end": 21,
+                "roomName": "3"
+            }
+        ],
+        "24": [
+            {
+                "start": 20,
+                "end": 23,
+                "roomName": "4"
+            }
+        ],
+        "25": [
+            {
+                "start": 20,
+                "end": 30,
+                "roomName": "4"
+            }
+        ],
+        "26": [
+            {
+                "start": 21,
+                "end": 117,
+                "roomName": "1"
+            }
+        ],
+        "52": [
+            {
+                "start": 51,
+                "end": 108,
+                "roomName": "3"
+            }
+        ],
+        "45": [
+            {
+                "start": 44,
+                "end": 47,
+                "roomName": "6"
+            }
+        ],
+        "48": [
+            {
+                "start": 46,
+                "end": 52,
+                "roomName": "5"
+            }
+        ],
+        "36": [
+            {
+                "start": 38,
+                "end": 58,
+                "roomName": "1"
+            }
+        ],
+        "27": [
+            {
+                "start": 28,
+                "end": 37,
+                "roomName": "1"
+            }
+        ],
+        "28": [
+            {
+                "start": 28,
+                "end": 86,
+                "roomName": "7"
+            }
+        ],
+        "49": [
+            {
+                "start": 48,
+                "end": 69,
+                "roomName": "6"
+            }
+        ],
+        "30": [
+            {
+                "start": 33,
+                "end": 78,
+                "roomName": "5"
+            }
+        ],
+        "38": [
+            {
+                "start": 40,
+                "end": 41,
+                "roomName": "4"
+            },
+            {
+                "start": 42,
+                "end": 44,
+                "roomName": "2"
+            },
+            {
+                "start": 45,
+                "end": 53,
+                "roomName": "4"
+            }
+        ],
+        "32": [
+            {
+                "start": 37,
+                "end": 39,
+                "roomName": "4"
+            }
+        ],
+        "92": [
+            {
+                "start": 123,
+                "end": 130,
+                "roomName": "6"
+            }
+        ],
+        "31": [
+            {
+                "start": 36,
+                "end": 45,
+                "roomName": "5"
+            }
+        ],
+        "34": [
+            {
+                "start": 37,
+                "end": 51,
+                "roomName": "3"
+            }
+        ],
+        "35": [
+            {
+                "start": 38,
+                "end": 42,
+                "roomName": "6"
+            }
+        ],
+        "43": [
+            {
+                "start": 43,
+                "end": 49,
+                "roomName": "3"
+            }
+        ],
+        "42": [
+            {
+                "start": 43,
+                "end": 46,
+                "roomName": "0"
+            }
+        ],
+        "39": [
+            {
+                "start": 41,
+                "end": 41,
+                "roomName": "2"
+            }
+        ],
+        "40": [
+            {
+                "start": 42,
+                "end": 44,
+                "roomName": "2"
+            }
+        ],
+        "44": [
+            {
+                "start": 43,
+                "end": 48,
+                "roomName": "4"
+            }
+        ],
+        "46": [
+            {
+                "start": 45,
+                "end": 50,
+                "roomName": "2"
+            }
+        ],
+        "47": [
+            {
+                "start": 45,
+                "end": 55,
+                "roomName": "6"
+            }
+        ],
+        "50": [
+            {
+                "start": 48,
+                "end": 48,
+                "roomName": "7"
+            }
+        ],
+        "63": [
+            {
+                "start": 69,
+                "end": 74,
+                "roomName": "5"
+            }
+        ],
+        "51": [
+            {
+                "start": 49,
+                "end": 140,
+                "roomName": "7"
+            }
+        ],
+        "60": [
+            {
+                "start": 59,
+                "end": 64,
+                "roomName": "3"
+            }
+        ],
+        "54": [
+            {
+                "start": 55,
+                "end": 65,
+                "roomName": "2"
+            }
+        ],
+        "55": [
+            {
+                "start": 56,
+                "end": 59,
+                "roomName": "6"
+            }
+        ],
+        "56": [
+            {
+                "start": 56,
+                "end": 58,
+                "roomName": "5"
+            }
+        ],
+        "57": [
+            {
+                "start": 56,
+                "end": 75,
+                "roomName": "4"
+            }
+        ],
+        "58": [
+            {
+                "start": 58,
+                "end": 61,
+                "roomName": "0"
+            }
+        ],
+        "59": [
+            {
+                "start": 58,
+                "end": 69,
+                "roomName": "2"
+            },
+            {
+                "start": 70,
+                "end": 72,
+                "roomName": "4"
+            }
+        ],
+        "61": [
+            {
+                "start": 59,
+                "end": 203,
+                "roomName": "1"
+            }
+        ],
+        "83": [
+            {
+                "start": 106,
+                "end": 141,
+                "roomName": "2"
+            }
+        ],
+        "68": [
+            {
+                "start": 71,
+                "end": 162,
+                "roomName": "0"
+            },
+            {
+                "start": 163,
+                "end": 171,
+                "roomName": "2"
+            },
+            {
+                "start": 172,
+                "end": 173,
+                "roomName": "6"
+            }
+        ],
+        "74": [
+            {
+                "start": 80,
+                "end": 81,
+                "roomName": "2"
+            }
+        ],
+        "62": [
+            {
+                "start": 69,
+                "end": 69,
+                "roomName": "4"
+            }
+        ],
+        "72": [
+            {
+                "start": 79,
+                "end": 84,
+                "roomName": "5"
+            }
+        ],
+        "64": [
+            {
+                "start": 69,
+                "end": 71,
+                "roomName": "6"
+            }
+        ],
+        "65": [
+            {
+                "start": 70,
+                "end": 71,
+                "roomName": "6"
+            }
+        ],
+        "66": [
+            {
+                "start": 70,
+                "end": 78,
+                "roomName": "2"
+            }
+        ],
+        "70": [
+            {
+                "start": 78,
+                "end": 78,
+                "roomName": "3"
+            }
+        ],
+        "76": [
+            {
+                "start": 80,
+                "end": 99,
+                "roomName": "4"
+            }
+        ],
+        "69": [
+            {
+                "start": 77,
+                "end": 82,
+                "roomName": "4"
+            }
+        ],
+        "75": [
+            {
+                "start": 80,
+                "end": 81,
+                "roomName": "5"
+            }
+        ],
+        "73": [
+            {
+                "start": 79,
+                "end": 79,
+                "roomName": "2"
+            }
+        ],
+        "77": [
+            {
+                "start": 81,
+                "end": 88,
+                "roomName": "2"
+            }
+        ],
+        "78": [
+            {
+                "start": 82,
+                "end": 242,
+                "roomName": "3"
+            },
+            {
+                "start": 243,
+                "end": 302,
+                "roomName": "5"
+            },
+            {
+                "start": 303,
+                "end": 430,
+                "roomName": "4"
+            }
+        ],
+        "80": [
+            {
+                "start": 105,
+                "end": 114,
+                "roomName": "5"
+            },
+            {
+                "start": 115,
+                "end": 116,
+                "roomName": "2"
+            }
+        ],
+        "86": [
+            {
+                "start": 114,
+                "end": 121,
+                "roomName": "4"
+            }
+        ],
+        "79": [
+            {
+                "start": 105,
+                "end": 106,
+                "roomName": "6"
+            }
+        ],
+        "81": [
+            {
+                "start": 106,
+                "end": 107,
+                "roomName": "7"
+            }
+        ],
+        "82": [
+            {
+                "start": 106,
+                "end": 114,
+                "roomName": "4"
+            }
+        ],
+        "89": [
+            {
+                "start": 122,
+                "end": 128,
+                "roomName": "1"
+            }
+        ],
+        "84": [
+            {
+                "start": 109,
+                "end": 145,
+                "roomName": "7"
+            },
+            {
+                "start": 146,
+                "end": 171,
+                "roomName": "4"
+            },
+            {
+                "start": 172,
+                "end": 184,
+                "roomName": "5"
+            }
+        ],
+        "85": [
+            {
+                "start": 114,
+                "end": 118,
+                "roomName": "6"
+            }
+        ],
+        "87": [
+            {
+                "start": 114,
+                "end": 119,
+                "roomName": "3"
+            }
+        ],
+        "90": [
+            {
+                "start": 122,
+                "end": 126,
+                "roomName": "3"
+            }
+        ],
+        "95": [
+            {
+                "start": 127,
+                "end": 128,
+                "roomName": "2"
+            }
+        ],
+        "119": [
+            {
+                "start": 177,
+                "end": 177,
+                "roomName": "6"
+            }
+        ],
+        "88": [
+            {
+                "start": 115,
+                "end": 215,
+                "roomName": "5"
+            },
+            {
+                "start": 216,
+                "end": 217,
+                "roomName": "0"
+            }
+        ],
+        "97": [
+            {
+                "start": 138,
+                "end": 138,
+                "roomName": "1"
+            }
+        ],
+        "102": [
+            {
+                "start": 141,
+                "end": 219,
+                "roomName": "3"
+            }
+        ],
+        "91": [
+            {
+                "start": 122,
+                "end": 122,
+                "roomName": "6"
+            }
+        ],
+        "93": [
+            {
+                "start": 123,
+                "end": 180,
+                "roomName": "6"
+            }
+        ],
+        "96": [
+            {
+                "start": 127,
+                "end": 138,
+                "roomName": "4"
+            },
+            {
+                "start": 139,
+                "end": 274,
+                "roomName": "1"
+            },
+            {
+                "start": 275,
+                "end": 293,
+                "roomName": "2"
+            }
+        ],
+        "94": [
+            {
+                "start": 127,
+                "end": 130,
+                "roomName": "4"
+            }
+        ],
+        "98": [
+            {
+                "start": 138,
+                "end": 140,
+                "roomName": "3"
+            }
+        ],
+        "130": [
+            {
+                "start": 199,
+                "end": 206,
+                "roomName": "4"
+            }
+        ],
+        "108": [
+            {
+                "start": 151,
+                "end": 153,
+                "roomName": "5"
+            }
+        ],
+        "101": [
+            {
+                "start": 140,
+                "end": 150,
+                "roomName": "6"
+            },
+            {
+                "start": 151,
+                "end": 152,
+                "roomName": "2"
+            }
+        ],
+        "99": [
+            {
+                "start": 139,
+                "end": 159,
+                "roomName": "4"
+            }
+        ],
+        "100": [
+            {
+                "start": 140,
+                "end": 143,
+                "roomName": "4"
+            }
+        ],
+        "103": [
+            {
+                "start": 146,
+                "end": 173,
+                "roomName": "7"
+            }
+        ],
+        "109": [
+            {
+                "start": 152,
+                "end": 171,
+                "roomName": "6"
+            },
+            {
+                "start": 172,
+                "end": 269,
+                "roomName": "4"
+            },
+            {
+                "start": 270,
+                "end": 275,
+                "roomName": "7"
+            },
+            {
+                "start": 276,
+                "end": 318,
+                "roomName": "1"
+            }
+        ],
+        "104": [
+            {
+                "start": 148,
+                "end": 149,
+                "roomName": "2"
+            }
+        ],
+        "105": [
+            {
+                "start": 148,
+                "end": 149,
+                "roomName": "7"
+            }
+        ],
+        "106": [
+            {
+                "start": 148,
+                "end": 150,
+                "roomName": "0"
+            },
+            {
+                "start": 151,
+                "end": 186,
+                "roomName": "2"
+            }
+        ],
+        "107": [
+            {
+                "start": 151,
+                "end": 151,
+                "roomName": "6"
+            }
+        ],
+        "164": [
+            {
+                "start": 236,
+                "end": 237,
+                "roomName": "5"
+            },
+            {
+                "start": 238,
+                "end": 239,
+                "roomName": "0"
+            }
+        ],
+        "117": [
+            {
+                "start": 174,
+                "end": 193,
+                "roomName": "7"
+            }
+        ],
+        "116": [
+            {
+                "start": 174,
+                "end": 175,
+                "roomName": "0"
+            }
+        ],
+        "121": [
+            {
+                "start": 181,
+                "end": 198,
+                "roomName": "0"
+            }
+        ],
+        "110": [
+            {
+                "start": 162,
+                "end": 173,
+                "roomName": "7"
+            }
+        ],
+        "123": [
+            {
+                "start": 185,
+                "end": 188,
+                "roomName": "0"
+            }
+        ],
+        "111": [
+            {
+                "start": 163,
+                "end": 164,
+                "roomName": "4"
+            }
+        ],
+        "113": [
+            {
+                "start": 165,
+                "end": 198,
+                "roomName": "4"
+            }
+        ],
+        "112": [
+            {
+                "start": 163,
+                "end": 180,
+                "roomName": "0"
+            }
+        ],
+        "160": [
+            {
+                "start": 231,
+                "end": 240,
+                "roomName": "7"
+            }
+        ],
+        "173": [
+            {
+                "start": 243,
+                "end": 264,
+                "roomName": "0"
+            }
+        ],
+        "114": [
+            {
+                "start": 174,
+                "end": 176,
+                "roomName": "6"
+            }
+        ],
+        "120": [
+            {
+                "start": 178,
+                "end": 184,
+                "roomName": "6"
+            },
+            {
+                "start": 185,
+                "end": 233,
+                "roomName": "5"
+            }
+        ],
+        "115": [
+            {
+                "start": 174,
+                "end": 206,
+                "roomName": "7"
+            },
+            {
+                "start": 207,
+                "end": 259,
+                "roomName": "4"
+            },
+            {
+                "start": 260,
+                "end": 261,
+                "roomName": "3"
+            }
+        ],
+        "135": [
+            {
+                "start": 204,
+                "end": 205,
+                "roomName": "6"
+            }
+        ],
+        "131": [
+            {
+                "start": 199,
+                "end": 203,
+                "roomName": "0"
+            }
+        ],
+        "118": [
+            {
+                "start": 177,
+                "end": 177,
+                "roomName": "0"
+            }
+        ],
+        "129": [
+            {
+                "start": 198,
+                "end": 200,
+                "roomName": "2"
+            }
+        ],
+        "125": [
+            {
+                "start": 189,
+                "end": 205,
+                "roomName": "6"
+            }
+        ],
+        "132": [
+            {
+                "start": 201,
+                "end": 206,
+                "roomName": "2"
+            }
+        ],
+        "122": [
+            {
+                "start": 181,
+                "end": 192,
+                "roomName": "2"
+            }
+        ],
+        "128": [
+            {
+                "start": 195,
+                "end": 201,
+                "roomName": "7"
+            }
+        ],
+        "137": [
+            {
+                "start": 206,
+                "end": 218,
+                "roomName": "0"
+            }
+        ],
+        "143": [
+            {
+                "start": 213,
+                "end": 214,
+                "roomName": "6"
+            }
+        ],
+        "124": [
+            {
+                "start": 185,
+                "end": 203,
+                "roomName": "6"
+            },
+            {
+                "start": 204,
+                "end": 263,
+                "roomName": "1"
+            }
+        ],
+        "148": [
+            {
+                "start": 217,
+                "end": 230,
+                "roomName": "7"
+            }
+        ],
+        "176": [
+            {
+                "start": 248,
+                "end": 248,
+                "roomName": "2"
+            }
+        ],
+        "170": [
+            {
+                "start": 242,
+                "end": 242,
+                "roomName": "5"
+            },
+            {
+                "start": 243,
+                "end": 247,
+                "roomName": "3"
+            }
+        ],
+        "168": [
+            {
+                "start": 241,
+                "end": 241,
+                "roomName": "0"
+            }
+        ],
+        "126": [
+            {
+                "start": 193,
+                "end": 197,
+                "roomName": "2"
+            }
+        ],
+        "127": [
+            {
+                "start": 194,
+                "end": 194,
+                "roomName": "2"
+            }
+        ],
+        "163": [
+            {
+                "start": 236,
+                "end": 237,
+                "roomName": "2"
+            }
+        ],
+        "138": [
+            {
+                "start": 206,
+                "end": 212,
+                "roomName": "6"
+            }
+        ],
+        "142": [
+            {
+                "start": 209,
+                "end": 212,
+                "roomName": "7"
+            }
+        ],
+        "150": [
+            {
+                "start": 218,
+                "end": 226,
+                "roomName": "6"
+            }
+        ],
+        "134": [
+            {
+                "start": 204,
+                "end": 215,
+                "roomName": "0"
+            }
+        ],
+        "133": [
+            {
+                "start": 202,
+                "end": 208,
+                "roomName": "7"
+            }
+        ],
+        "136": [
+            {
+                "start": 204,
+                "end": 206,
+                "roomName": "2"
+            }
+        ],
+        "141": [
+            {
+                "start": 207,
+                "end": 209,
+                "roomName": "6"
+            }
+        ],
+        "177": [
+            {
+                "start": 248,
+                "end": 252,
+                "roomName": "3"
+            }
+        ],
+        "139": [
+            {
+                "start": 207,
+                "end": 215,
+                "roomName": "2"
+            },
+            {
+                "start": 216,
+                "end": 233,
+                "roomName": "6"
+            }
+        ],
+        "140": [
+            {
+                "start": 207,
+                "end": 274,
+                "roomName": "2"
+            }
+        ],
+        "147": [
+            {
+                "start": 216,
+                "end": 217,
+                "roomName": "6"
+            }
+        ],
+        "210": [
+            {
+                "start": 290,
+                "end": 292,
+                "roomName": "4"
+            }
+        ],
+        "145": [
+            {
+                "start": 213,
+                "end": 219,
+                "roomName": "7"
+            },
+            {
+                "start": 220,
+                "end": 245,
+                "roomName": "3"
+            }
+        ],
+        "149": [
+            {
+                "start": 218,
+                "end": 218,
+                "roomName": "0"
+            }
+        ],
+        "152": [
+            {
+                "start": 219,
+                "end": 221,
+                "roomName": "0"
+            }
+        ],
+        "144": [
+            {
+                "start": 213,
+                "end": 216,
+                "roomName": "7"
+            }
+        ],
+        "153": [
+            {
+                "start": 219,
+                "end": 219,
+                "roomName": "0"
+            },
+            {
+                "start": 220,
+                "end": 221,
+                "roomName": "7"
+            },
+            {
+                "start": 222,
+                "end": 235,
+                "roomName": "5"
+            }
+        ],
+        "179": [
+            {
+                "start": 259,
+                "end": 261,
+                "roomName": "3"
+            }
+        ],
+        "146": [
+            {
+                "start": 215,
+                "end": 215,
+                "roomName": "6"
+            }
+        ],
+        "161": [
+            {
+                "start": 234,
+                "end": 237,
+                "roomName": "6"
+            },
+            {
+                "start": 238,
+                "end": 246,
+                "roomName": "7"
+            }
+        ],
+        "151": [
+            {
+                "start": 219,
+                "end": 219,
+                "roomName": "2"
+            }
+        ],
+        "154": [
+            {
+                "start": 220,
+                "end": 242,
+                "roomName": "0"
+            }
+        ],
+        "174": [
+            {
+                "start": 247,
+                "end": 258,
+                "roomName": "3"
+            }
+        ],
+        "222": [
+            {
+                "start": 302,
+                "end": 302,
+                "roomName": "3"
+            }
+        ],
+        "155": [
+            {
+                "start": 222,
+                "end": 230,
+                "roomName": "7"
+            }
+        ],
+        "157": [
+            {
+                "start": 229,
+                "end": 349,
+                "roomName": "6"
+            }
+        ],
+        "180": [
+            {
+                "start": 260,
+                "end": 262,
+                "roomName": "6"
+            }
+        ],
+        "156": [
+            {
+                "start": 227,
+                "end": 228,
+                "roomName": "6"
+            }
+        ],
+        "162": [
+            {
+                "start": 234,
+                "end": 241,
+                "roomName": "5"
+            }
+        ],
+        "166": [
+            {
+                "start": 238,
+                "end": 241,
+                "roomName": "5"
+            }
+        ],
+        "158": [
+            {
+                "start": 231,
+                "end": 232,
+                "roomName": "0"
+            }
+        ],
+        "159": [
+            {
+                "start": 231,
+                "end": 237,
+                "roomName": "7"
+            }
+        ],
+        "171": [
+            {
+                "start": 242,
+                "end": 242,
+                "roomName": "2"
+            },
+            {
+                "start": 243,
+                "end": 246,
+                "roomName": "7"
+            }
+        ],
+        "216": [
+            {
+                "start": 299,
+                "end": 299,
+                "roomName": "7"
+            }
+        ],
+        "167": [
+            {
+                "start": 238,
+                "end": 259,
+                "roomName": "6"
+            },
+            {
+                "start": 260,
+                "end": 261,
+                "roomName": "2"
+            }
+        ],
+        "205": [
+            {
+                "start": 280,
+                "end": 289,
+                "roomName": "7"
+            }
+        ],
+        "169": [
+            {
+                "start": 241,
+                "end": 242,
+                "roomName": "7"
+            },
+            {
+                "start": 243,
+                "end": 299,
+                "roomName": "0"
+            }
+        ],
+        "172": [
+            {
+                "start": 242,
+                "end": 268,
+                "roomName": "5"
+            }
+        ],
+        "200": [
+            {
+                "start": 272,
+                "end": 272,
+                "roomName": "4"
+            }
+        ],
+        "196": [
+            {
+                "start": 269,
+                "end": 268,
+                "roomName": "0"
+            }
+        ],
+        "245": [
+            {
+                "start": 335,
+                "end": 340,
+                "roomName": "7"
+            },
+            {
+                "start": 341,
+                "end": 342,
+                "roomName": "2"
+            },
+            {
+                "start": 343,
+                "end": 344,
+                "roomName": "7"
+            }
+        ],
+        "175": [
+            {
+                "start": 247,
+                "end": 298,
+                "roomName": "7"
+            }
+        ],
+        "184": [
+            {
+                "start": 263,
+                "end": 263,
+                "roomName": "3"
+            },
+            {
+                "start": 264,
+                "end": 264,
+                "roomName": "7"
+            },
+            {
+                "start": 265,
+                "end": 266,
+                "roomName": "3"
+            }
+        ],
+        "211": [
+            {
+                "start": 290,
+                "end": 302,
+                "roomName": "4"
+            },
+            {
+                "start": 303,
+                "end": 303,
+                "roomName": "5"
+            }
+        ],
+        "231": [
+            {
+                "start": 316,
+                "end": 406,
+                "roomName": "3"
+            }
+        ],
+        "215": [
+            {
+                "start": 294,
+                "end": 300,
+                "roomName": "4"
+            }
+        ],
+        "181": [
+            {
+                "start": 260,
+                "end": 269,
+                "roomName": "4"
+            }
+        ],
+        "183": [
+            {
+                "start": 262,
+                "end": 262,
+                "roomName": "3"
+            }
+        ],
+        "217": [
+            {
+                "start": 300,
+                "end": 316,
+                "roomName": "2"
+            },
+            {
+                "start": 317,
+                "end": 364,
+                "roomName": "3"
+            }
+        ],
+        "178": [
+            {
+                "start": 253,
+                "end": 259,
+                "roomName": "3"
+            }
+        ],
+        "197": [
+            {
+                "start": 269,
+                "end": 309,
+                "roomName": "5"
+            }
+        ],
+        "201": [
+            {
+                "start": 273,
+                "end": 287,
+                "roomName": "4"
+            }
+        ],
+        "237": [
+            {
+                "start": 321,
+                "end": 326,
+                "roomName": "5"
+            }
+        ],
+        "192": [
+            {
+                "start": 268,
+                "end": 275,
+                "roomName": "3"
+            },
+            {
+                "start": 276,
+                "end": 284,
+                "roomName": "0"
+            }
+        ],
+        "229": [
+            {
+                "start": 315,
+                "end": 319,
+                "roomName": "0"
+            }
+        ],
+        "190": [
+            {
+                "start": 266,
+                "end": 267,
+                "roomName": "6"
+            }
+        ],
+        "182": [
+            {
+                "start": 262,
+                "end": 263,
+                "roomName": "3"
+            }
+        ],
+        "194": [
+            {
+                "start": 268,
+                "end": 355,
+                "roomName": "6"
+            }
+        ],
+        "185": [
+            {
+                "start": 263,
+                "end": 265,
+                "roomName": "6"
+            }
+        ],
+        "186": [
+            {
+                "start": 264,
+                "end": 265,
+                "roomName": "2"
+            }
+        ],
+        "187": [
+            {
+                "start": 264,
+                "end": 273,
+                "roomName": "1"
+            }
+        ],
+        "188": [
+            {
+                "start": 264,
+                "end": 264,
+                "roomName": "3"
+            },
+            {
+                "start": 265,
+                "end": 275,
+                "roomName": "0"
+            },
+            {
+                "start": 276,
+                "end": 299,
+                "roomName": "3"
+            },
+            {
+                "start": 300,
+                "end": 319,
+                "roomName": "0"
+            },
+            {
+                "start": 320,
+                "end": 320,
+                "roomName": "2"
+            },
+            {
+                "start": 321,
+                "end": 324,
+                "roomName": "7"
+            }
+        ],
+        "189": [
+            {
+                "start": 265,
+                "end": 268,
+                "roomName": "7"
+            }
+        ],
+        "193": [
+            {
+                "start": 268,
+                "end": 268,
+                "roomName": "3"
+            }
+        ],
+        "208": [
+            {
+                "start": 289,
+                "end": 289,
+                "roomName": "4"
+            }
+        ],
+        "191": [
+            {
+                "start": 267,
+                "end": 267,
+                "roomName": "3"
+            }
+        ],
+        "195": [
+            {
+                "start": 269,
+                "end": 269,
+                "roomName": "2"
+            },
+            {
+                "start": 270,
+                "end": 271,
+                "roomName": "4"
+            }
+        ],
+        "198": [
+            {
+                "start": 270,
+                "end": 281,
+                "roomName": "3"
+            }
+        ],
+        "206": [
+            {
+                "start": 285,
+                "end": 288,
+                "roomName": "4"
+            }
+        ],
+        "199": [
+            {
+                "start": 270,
+                "end": 302,
+                "roomName": "2"
+            },
+            {
+                "start": 303,
+                "end": 303,
+                "roomName": "3"
+            }
+        ],
+        "203": [
+            {
+                "start": 275,
+                "end": 279,
+                "roomName": "4"
+            }
+        ],
+        "212": [
+            {
+                "start": 293,
+                "end": 301,
+                "roomName": "3"
+            }
+        ],
+        "207": [
+            {
+                "start": 285,
+                "end": 289,
+                "roomName": "3"
+            }
+        ],
+        "233": [
+            {
+                "start": 319,
+                "end": 319,
+                "roomName": "1"
+            }
+        ],
+        "202": [
+            {
+                "start": 275,
+                "end": 275,
+                "roomName": "1"
+            }
+        ],
+        "204": [
+            {
+                "start": 276,
+                "end": 418,
+                "roomName": "1"
+            }
+        ],
+        "209": [
+            {
+                "start": 289,
+                "end": 302,
+                "roomName": "0"
+            },
+            {
+                "start": 303,
+                "end": 311,
+                "roomName": "3"
+            },
+            {
+                "start": 312,
+                "end": 344,
+                "roomName": "2"
+            },
+            {
+                "start": 345,
+                "end": 346,
+                "roomName": "7"
+            },
+            {
+                "start": 347,
+                "end": 355,
+                "roomName": "2"
+            }
+        ],
+        "236": [
+            {
+                "start": 320,
+                "end": 340,
+                "roomName": "1"
+            },
+            {
+                "start": 341,
+                "end": 341,
+                "roomName": "7"
+            }
+        ],
+        "218": [
+            {
+                "start": 300,
+                "end": 299,
+                "roomName": "0"
+            }
+        ],
+        "213": [
+            {
+                "start": 293,
+                "end": 293,
+                "roomName": "4"
+            }
+        ],
+        "214": [
+            {
+                "start": 294,
+                "end": 293,
+                "roomName": "0"
+            }
+        ],
+        "227": [
+            {
+                "start": 312,
+                "end": 314,
+                "roomName": "3"
+            }
+        ],
+        "230": [
+            {
+                "start": 315,
+                "end": 315,
+                "roomName": "3"
+            }
+        ],
+        "220": [
+            {
+                "start": 301,
+                "end": 320,
+                "roomName": "7"
+            },
+            {
+                "start": 321,
+                "end": 337,
+                "roomName": "0"
+            }
+        ],
+        "221": [
+            {
+                "start": 302,
+                "end": 316,
+                "roomName": "4"
+            }
+        ],
+        "223": [
+            {
+                "start": 303,
+                "end": 311,
+                "roomName": "2"
+            }
+        ],
+        "252": [
+            {
+                "start": 347,
+                "end": 347,
+                "roomName": "5"
+            }
+        ],
+        "250": [
+            {
+                "start": 345,
+                "end": 346,
+                "roomName": "5"
+            }
+        ],
+        "219": [
+            {
+                "start": 300,
+                "end": 307,
+                "roomName": "7"
+            }
+        ],
+        "239": [
+            {
+                "start": 325,
+                "end": 325,
+                "roomName": "7"
+            }
+        ],
+        "224": [
+            {
+                "start": 304,
+                "end": 341,
+                "roomName": "5"
+            },
+            {
+                "start": 342,
+                "end": 342,
+                "roomName": "7"
+            }
+        ],
+        "225": [
+            {
+                "start": 304,
+                "end": 313,
+                "roomName": "0"
+            }
+        ],
+        "226": [
+            {
+                "start": 310,
+                "end": 320,
+                "roomName": "5"
+            }
+        ],
+        "241": [
+            {
+                "start": 326,
+                "end": 329,
+                "roomName": "7"
+            }
+        ],
+        "228": [
+            {
+                "start": 312,
+                "end": 317,
+                "roomName": "7"
+            }
+        ],
+        "256": [
+            {
+                "start": 350,
+                "end": 358,
+                "roomName": "5"
+            }
+        ],
+        "234": [
+            {
+                "start": 320,
+                "end": 329,
+                "roomName": "4"
+            }
+        ],
+        "232": [
+            {
+                "start": 318,
+                "end": 320,
+                "roomName": "7"
+            }
+        ],
+        "253": [
+            {
+                "start": 347,
+                "end": 373,
+                "roomName": "7"
+            }
+        ],
+        "235": [
+            {
+                "start": 320,
+                "end": 322,
+                "roomName": "0"
+            }
+        ],
+        "238": [
+            {
+                "start": 321,
+                "end": 324,
+                "roomName": "7"
+            },
+            {
+                "start": 325,
+                "end": 334,
+                "roomName": "2"
+            },
+            {
+                "start": 335,
+                "end": 340,
+                "roomName": "7"
+            }
+        ],
+        "244": [
+            {
+                "start": 330,
+                "end": 375,
+                "roomName": "4"
+            }
+        ],
+        "254": [
+            {
+                "start": 350,
+                "end": 350,
+                "roomName": "5"
+            }
+        ],
+        "240": [
+            {
+                "start": 325,
+                "end": 370,
+                "roomName": "0"
+            }
+        ],
+        "242": [
+            {
+                "start": 327,
+                "end": 344,
+                "roomName": "5"
+            }
+        ],
+        "243": [
+            {
+                "start": 330,
+                "end": 334,
+                "roomName": "7"
+            }
+        ],
+        "247": [
+            {
+                "start": 341,
+                "end": 364,
+                "roomName": "1"
+            }
+        ],
+        "257": [
+            {
+                "start": 350,
+                "end": 360,
+                "roomName": "6"
+            }
+        ],
+        "249": [
+            {
+                "start": 343,
+                "end": 356,
+                "roomName": "7"
+            }
+        ],
+        "262": [
+            {
+                "start": 359,
+                "end": 362,
+                "roomName": "5"
+            }
+        ],
+        "246": [
+            {
+                "start": 341,
+                "end": 349,
+                "roomName": "0"
+            }
+        ],
+        "248": [
+            {
+                "start": 342,
+                "end": 349,
+                "roomName": "5"
+            }
+        ],
+        "259": [
+            {
+                "start": 356,
+                "end": 393,
+                "roomName": "2"
+            }
+        ],
+        "251": [
+            {
+                "start": 345,
+                "end": 346,
+                "roomName": "2"
+            }
+        ],
+        "255": [
+            {
+                "start": 350,
+                "end": 367,
+                "roomName": "0"
+            }
+        ],
+        "258": [
+            {
+                "start": 356,
+                "end": 358,
+                "roomName": "5"
+            }
+        ],
+        "260": [
+            {
+                "start": 357,
+                "end": 377,
+                "roomName": "7"
+            }
+        ],
+        "261": [
+            {
+                "start": 359,
+                "end": 374,
+                "roomName": "5"
+            }
+        ],
+        "263": [
+            {
+                "start": 361,
+                "end": 363,
+                "roomName": "6"
+            }
+        ],
+        "264": [
+            {
+                "start": 363,
+                "end": 365,
+                "roomName": "5"
+            }
+        ],
+        "265": [
+            {
+                "start": 364,
+                "end": 377,
+                "roomName": "6"
+            }
+        ]
+    },
+    "transfers": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0,
+        "22": 0,
+        "23": 0,
+        "24": 0,
+        "25": 0,
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0,
+        "31": 0,
+        "32": 0,
+        "33": 0,
+        "34": 0,
+        "35": 0,
+        "36": 0,
+        "37": 0,
+        "38": 0,
+        "39": 0,
+        "40": 0,
+        "41": 1,
+        "42": 1,
+        "43": 0,
+        "44": 0,
+        "45": 1,
+        "46": 0,
+        "47": 0,
+        "48": 0,
+        "49": 0,
+        "50": 0,
+        "51": 0,
+        "52": 0,
+        "53": 0,
+        "54": 0,
+        "55": 0,
+        "56": 0,
+        "57": 0,
+        "58": 0,
+        "59": 0,
+        "60": 0,
+        "61": 0,
+        "62": 0,
+        "63": 0,
+        "64": 0,
+        "65": 0,
+        "66": 0,
+        "67": 0,
+        "68": 0,
+        "69": 0,
+        "70": 1,
+        "71": 0,
+        "72": 0,
+        "73": 0,
+        "74": 0,
+        "75": 0,
+        "76": 0,
+        "77": 0,
+        "78": 0,
+        "79": 0,
+        "80": 0,
+        "81": 0,
+        "82": 0,
+        "83": 0,
+        "84": 0,
+        "85": 0,
+        "86": 0,
+        "87": 0,
+        "88": 0,
+        "89": 0,
+        "90": 0,
+        "91": 0,
+        "92": 0,
+        "93": 0,
+        "94": 0,
+        "95": 0,
+        "96": 0,
+        "97": 0,
+        "98": 0,
+        "99": 0,
+        "100": 0,
+        "101": 0,
+        "102": 0,
+        "103": 0,
+        "104": 0,
+        "105": 0,
+        "106": 0,
+        "107": 0,
+        "108": 0,
+        "109": 0,
+        "110": 0,
+        "111": 0,
+        "112": 0,
+        "113": 0,
+        "114": 0,
+        "115": 1,
+        "116": 0,
+        "117": 0,
+        "118": 0,
+        "119": 0,
+        "120": 0,
+        "121": 0,
+        "122": 0,
+        "123": 0,
+        "124": 0,
+        "125": 0,
+        "126": 0,
+        "127": 0,
+        "128": 0,
+        "129": 0,
+        "130": 0,
+        "131": 0,
+        "132": 0,
+        "133": 0,
+        "134": 0,
+        "135": 0,
+        "136": 0,
+        "137": 0,
+        "138": 0,
+        "139": 1,
+        "140": 0,
+        "141": 0,
+        "142": 0,
+        "143": 0,
+        "144": 0,
+        "145": 0,
+        "146": 1,
+        "147": 0,
+        "148": 0,
+        "149": 0,
+        "150": 0,
+        "151": 2,
+        "152": 0,
+        "153": 0,
+        "154": 0,
+        "155": 0,
+        "156": 0,
+        "157": 0,
+        "158": 0,
+        "159": 0,
+        "160": 0,
+        "161": 0,
+        "162": 0,
+        "163": 1,
+        "164": 0,
+        "165": 0,
+        "166": 0,
+        "167": 0,
+        "168": 0,
+        "169": 0,
+        "170": 0,
+        "171": 0,
+        "172": 3,
+        "173": 0,
+        "174": 0,
+        "175": 0,
+        "176": 0,
+        "177": 0,
+        "178": 0,
+        "179": 0,
+        "180": 0,
+        "181": 0,
+        "182": 0,
+        "183": 0,
+        "184": 0,
+        "185": 1,
+        "186": 0,
+        "187": 0,
+        "188": 0,
+        "189": 0,
+        "190": 0,
+        "191": 0,
+        "192": 0,
+        "193": 0,
+        "194": 0,
+        "195": 0,
+        "196": 0,
+        "197": 0,
+        "198": 0,
+        "199": 0,
+        "200": 0,
+        "201": 0,
+        "202": 0,
+        "203": 0,
+        "204": 1,
+        "205": 0,
+        "206": 0,
+        "207": 1,
+        "208": 0,
+        "209": 0,
+        "210": 0,
+        "211": 0,
+        "212": 0,
+        "213": 0,
+        "214": 0,
+        "215": 0,
+        "216": 2,
+        "217": 0,
+        "218": 0,
+        "219": 0,
+        "220": 2,
+        "221": 0,
+        "222": 1,
+        "223": 0,
+        "224": 0,
+        "225": 0,
+        "226": 0,
+        "227": 0,
+        "228": 0,
+        "229": 0,
+        "230": 0,
+        "231": 0,
+        "232": 0,
+        "233": 0,
+        "234": 0,
+        "235": 0,
+        "236": 0,
+        "237": 0,
+        "238": 2,
+        "239": 0,
+        "240": 0,
+        "241": 0,
+        "242": 0,
+        "243": 4,
+        "244": 0,
+        "245": 0,
+        "246": 0,
+        "247": 0,
+        "248": 0,
+        "249": 0,
+        "250": 0,
+        "251": 0,
+        "252": 0,
+        "253": 0,
+        "254": 0,
+        "255": 0,
+        "256": 0,
+        "257": 0,
+        "258": 0,
+        "259": 0,
+        "260": 2,
+        "261": 0,
+        "262": 0,
+        "263": 0,
+        "264": 1,
+        "265": 2,
+        "266": 0,
+        "267": 0,
+        "268": 0,
+        "269": 0,
+        "270": 2,
+        "271": 0,
+        "272": 0,
+        "273": 0,
+        "274": 0,
+        "275": 1,
+        "276": 3,
+        "277": 0,
+        "278": 0,
+        "279": 0,
+        "280": 0,
+        "281": 0,
+        "282": 0,
+        "283": 0,
+        "284": 0,
+        "285": 0,
+        "286": 0,
+        "287": 0,
+        "288": 0,
+        "289": 0,
+        "290": 0,
+        "291": 0,
+        "292": 0,
+        "293": 0,
+        "294": 0,
+        "295": 0,
+        "296": 0,
+        "297": 0,
+        "298": 0,
+        "299": 0,
+        "300": 1,
+        "301": 0,
+        "302": 0,
+        "303": 4,
+        "304": 0,
+        "305": 0,
+        "306": 0,
+        "307": 0,
+        "308": 0,
+        "309": 0,
+        "310": 0,
+        "311": 0,
+        "312": 1,
+        "313": 0,
+        "314": 0,
+        "315": 0,
+        "316": 0,
+        "317": 1,
+        "318": 0,
+        "319": 0,
+        "320": 1,
+        "321": 2,
+        "322": 0,
+        "323": 0,
+        "324": 0,
+        "325": 1,
+        "326": 0,
+        "327": 0,
+        "328": 0,
+        "329": 0,
+        "330": 0,
+        "331": 0,
+        "332": 0,
+        "333": 0,
+        "334": 0,
+        "335": 1,
+        "336": 0,
+        "337": 0,
+        "338": 0,
+        "339": 0,
+        "340": 0,
+        "341": 2,
+        "342": 1,
+        "343": 1,
+        "344": 0,
+        "345": 1,
+        "346": 0,
+        "347": 1,
+        "348": 0,
+        "349": 0,
+        "350": 0,
+        "351": 0,
+        "352": 0,
+        "353": 0,
+        "354": 0,
+        "355": 0,
+        "356": 0,
+        "357": 0,
+        "358": 0,
+        "359": 0,
+        "360": 0,
+        "361": 0,
+        "362": 0,
+        "363": 0,
+        "364": 0
+    },
+    "private_rooms": {
+        "0": 1,
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 2,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 1,
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 1,
+        "34": 1,
+        "35": 1,
+        "36": 1,
+        "37": 1,
+        "38": 1,
+        "39": 1,
+        "40": 1,
+        "41": 0,
+        "42": 1,
+        "43": 1,
+        "44": 0,
+        "45": 1,
+        "46": 1,
+        "47": 1,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 0,
+        "52": 0,
+        "53": 0,
+        "54": 0,
+        "55": 0,
+        "56": 0,
+        "57": 0,
+        "58": 0,
+        "59": 0,
+        "60": 0,
+        "61": 0,
+        "62": 0,
+        "63": 0,
+        "64": 0,
+        "65": 0,
+        "66": 0,
+        "67": 0,
+        "68": 0,
+        "69": 0,
+        "70": 0,
+        "71": 1,
+        "72": 1,
+        "73": 1,
+        "74": 1,
+        "75": 1,
+        "76": 1,
+        "77": 1,
+        "78": 2,
+        "79": 2,
+        "80": 2,
+        "81": 2,
+        "82": 3,
+        "83": 3,
+        "84": 3,
+        "85": 3,
+        "86": 3,
+        "87": 3,
+        "88": 3,
+        "89": 2,
+        "90": 2,
+        "91": 2,
+        "92": 2,
+        "93": 2,
+        "94": 2,
+        "95": 2,
+        "96": 1,
+        "97": 1,
+        "98": 1,
+        "99": 1,
+        "100": 1,
+        "101": 1,
+        "102": 1,
+        "103": 1,
+        "104": 1,
+        "105": 2,
+        "106": 4,
+        "107": 3,
+        "108": 3,
+        "109": 3,
+        "110": 3,
+        "111": 3,
+        "112": 3,
+        "113": 3,
+        "114": 3,
+        "115": 3,
+        "116": 3,
+        "117": 4,
+        "118": 4,
+        "119": 3,
+        "120": 3,
+        "121": 3,
+        "122": 3,
+        "123": 3,
+        "124": 3,
+        "125": 3,
+        "126": 3,
+        "127": 2,
+        "128": 2,
+        "129": 3,
+        "130": 3,
+        "131": 3,
+        "132": 3,
+        "133": 3,
+        "134": 3,
+        "135": 3,
+        "136": 3,
+        "137": 3,
+        "138": 3,
+        "139": 3,
+        "140": 3,
+        "141": 3,
+        "142": 2,
+        "143": 2,
+        "144": 2,
+        "145": 2,
+        "146": 2,
+        "147": 2,
+        "148": 2,
+        "149": 2,
+        "150": 1,
+        "151": 1,
+        "152": 1,
+        "153": 2,
+        "154": 3,
+        "155": 3,
+        "156": 3,
+        "157": 3,
+        "158": 3,
+        "159": 3,
+        "160": 3,
+        "161": 3,
+        "162": 3,
+        "163": 1,
+        "164": 1,
+        "165": 1,
+        "166": 1,
+        "167": 1,
+        "168": 1,
+        "169": 1,
+        "170": 1,
+        "171": 1,
+        "172": 1,
+        "173": 1,
+        "174": 1,
+        "175": 1,
+        "176": 1,
+        "177": 1,
+        "178": 1,
+        "179": 1,
+        "180": 1,
+        "181": 1,
+        "182": 1,
+        "183": 1,
+        "184": 1,
+        "185": 0,
+        "186": 0,
+        "187": 0,
+        "188": 0,
+        "189": 0,
+        "190": 0,
+        "191": 0,
+        "192": 0,
+        "193": 0,
+        "194": 0,
+        "195": 0,
+        "196": 0,
+        "197": 0,
+        "198": 1,
+        "199": 1,
+        "200": 1,
+        "201": 1,
+        "202": 1,
+        "203": 1,
+        "204": 0,
+        "205": 0,
+        "206": 1,
+        "207": 0,
+        "208": 0,
+        "209": 1,
+        "210": 2,
+        "211": 2,
+        "212": 2,
+        "213": 0,
+        "214": 0,
+        "215": 0,
+        "216": 2,
+        "217": 2,
+        "218": 2,
+        "219": 1,
+        "220": 2,
+        "221": 2,
+        "222": 2,
+        "223": 2,
+        "224": 2,
+        "225": 2,
+        "226": 2,
+        "227": 2,
+        "228": 2,
+        "229": 2,
+        "230": 2,
+        "231": 1,
+        "232": 1,
+        "233": 2,
+        "234": 2,
+        "235": 2,
+        "236": 1,
+        "237": 1,
+        "238": 1,
+        "239": 1,
+        "240": 2,
+        "241": 1,
+        "242": 1,
+        "243": 1,
+        "244": 1,
+        "245": 1,
+        "246": 1,
+        "247": 2,
+        "248": 1,
+        "249": 2,
+        "250": 2,
+        "251": 2,
+        "252": 2,
+        "253": 2,
+        "254": 2,
+        "255": 2,
+        "256": 2,
+        "257": 2,
+        "258": 2,
+        "259": 2,
+        "260": 1,
+        "261": 1,
+        "262": 2,
+        "263": 2,
+        "264": 1,
+        "265": 1,
+        "266": 2,
+        "267": 1,
+        "268": 1,
+        "269": 1,
+        "270": 0,
+        "271": 0,
+        "272": 0,
+        "273": 0,
+        "274": 0,
+        "275": 1,
+        "276": 1,
+        "277": 1,
+        "278": 1,
+        "279": 1,
+        "280": 0,
+        "281": 0,
+        "282": 1,
+        "283": 1,
+        "284": 1,
+        "285": 0,
+        "286": 0,
+        "287": 0,
+        "288": 0,
+        "289": 1,
+        "290": 2,
+        "291": 2,
+        "292": 2,
+        "293": 1,
+        "294": 1,
+        "295": 1,
+        "296": 1,
+        "297": 1,
+        "298": 1,
+        "299": 0,
+        "300": 0,
+        "301": 0,
+        "302": 0,
+        "303": 1,
+        "304": 1,
+        "305": 1,
+        "306": 1,
+        "307": 1,
+        "308": 1,
+        "309": 1,
+        "310": 1,
+        "311": 1,
+        "312": 1,
+        "313": 1,
+        "314": 2,
+        "315": 1,
+        "316": 0,
+        "317": 1,
+        "318": 1,
+        "319": 1,
+        "320": 1,
+        "321": 1,
+        "322": 1,
+        "323": 1,
+        "324": 1,
+        "325": 0,
+        "326": 0,
+        "327": 0,
+        "328": 0,
+        "329": 0,
+        "330": 1,
+        "331": 1,
+        "332": 1,
+        "333": 1,
+        "334": 1,
+        "335": 1,
+        "336": 1,
+        "337": 1,
+        "338": 1,
+        "339": 1,
+        "340": 1,
+        "341": 0,
+        "342": 0,
+        "343": 1,
+        "344": 1,
+        "345": 1,
+        "346": 1,
+        "347": 1,
+        "348": 1,
+        "349": 1,
+        "350": 1,
+        "351": 1,
+        "352": 1,
+        "353": 1,
+        "354": 1,
+        "355": 1,
+        "356": 1,
+        "357": 1,
+        "358": 1,
+        "359": 1,
+        "360": 1,
+        "361": 1,
+        "362": 1,
+        "363": 1,
+        "364": 1
+    },
+    "runtime": {
+        "0": 0.13385701179504395,
+        "1": 0.10692119598388672,
+        "2": 0.1073160171508789,
+        "3": 0.10557723045349121,
+        "4": 0.10579085350036621,
+        "5": 0.10645627975463867,
+        "6": 0.10640645027160645,
+        "7": 0.10429692268371582,
+        "8": 0.10301923751831055,
+        "9": 0.10268449783325195,
+        "10": 0.10471773147583008,
+        "11": 0.10241246223449707,
+        "12": 0.10264730453491211,
+        "13": 0.10165810585021973,
+        "14": 0.10085582733154297,
+        "15": 0.09731149673461914,
+        "16": 0.09704446792602539,
+        "17": 0.10871028900146484,
+        "18": 0.09722471237182617,
+        "19": 0.09847164154052734,
+        "20": 0.09285330772399902,
+        "21": 0.09803175926208496,
+        "22": 0.10120844841003418,
+        "23": 0.09572148323059082,
+        "24": 0.09457206726074219,
+        "25": 0.09466934204101562,
+        "26": 0.09566426277160645,
+        "27": 0.09600949287414551,
+        "28": 0.09630584716796875,
+        "29": 0.09758710861206055,
+        "30": 0.09572863578796387,
+        "31": 0.09643101692199707,
+        "32": 0.09443211555480957,
+        "33": 0.09636330604553223,
+        "34": 0.0950472354888916,
+        "35": 0.097015380859375,
+        "36": 0.09586191177368164,
+        "37": 0.09596133232116699,
+        "38": 0.09515786170959473,
+        "39": 0.09381771087646484,
+        "40": 0.0973653793334961,
+        "41": 0.38624095916748047,
+        "42": 0.19162297248840332,
+        "43": 0.08798933029174805,
+        "44": 0.08639264106750488,
+        "45": 0.18909096717834473,
+        "46": 0.090057373046875,
+        "47": 0.08653378486633301,
+        "48": 0.08906030654907227,
+        "49": 0.08979249000549316,
+        "50": 0.0874018669128418,
+        "51": 0.08710050582885742,
+        "52": 0.0840141773223877,
+        "53": 0.08524847030639648,
+        "54": 0.08444333076477051,
+        "55": 0.08347773551940918,
+        "56": 0.08510971069335938,
+        "57": 0.08357644081115723,
+        "58": 0.08409881591796875,
+        "59": 0.09160304069519043,
+        "60": 0.1143951416015625,
+        "61": 0.11426806449890137,
+        "62": 0.11328482627868652,
+        "63": 0.11474156379699707,
+        "64": 0.12853121757507324,
+        "65": 0.1093442440032959,
+        "66": 0.10873079299926758,
+        "67": 0.10658025741577148,
+        "68": 0.10661840438842773,
+        "69": 0.10531330108642578,
+        "70": 0.25575900077819824,
+        "71": 0.11270523071289062,
+        "72": 0.09685206413269043,
+        "73": 0.09733128547668457,
+        "74": 0.09746909141540527,
+        "75": 0.10924172401428223,
+        "76": 0.09622621536254883,
+        "77": 0.09761738777160645,
+        "78": 0.09643316268920898,
+        "79": 0.09349393844604492,
+        "80": 0.09222197532653809,
+        "81": 0.09635543823242188,
+        "82": 0.09705305099487305,
+        "83": 0.09557509422302246,
+        "84": 0.09474778175354004,
+        "85": 0.09547877311706543,
+        "86": 0.09378361701965332,
+        "87": 0.09552693367004395,
+        "88": 0.09225225448608398,
+        "89": 0.09052062034606934,
+        "90": 0.0941934585571289,
+        "91": 0.09135079383850098,
+        "92": 0.09180402755737305,
+        "93": 0.09087657928466797,
+        "94": 0.09086036682128906,
+        "95": 0.08993840217590332,
+        "96": 0.08870458602905273,
+        "97": 0.08948445320129395,
+        "98": 0.08943939208984375,
+        "99": 0.08760213851928711,
+        "100": 0.08706068992614746,
+        "101": 0.08615636825561523,
+        "102": 0.08610367774963379,
+        "103": 0.08647465705871582,
+        "104": 0.08514928817749023,
+        "105": 0.0860755443572998,
+        "106": 0.08571481704711914,
+        "107": 0.08379793167114258,
+        "108": 0.08405542373657227,
+        "109": 0.08922600746154785,
+        "110": 0.08584880828857422,
+        "111": 0.0845026969909668,
+        "112": 0.0848379135131836,
+        "113": 0.08548665046691895,
+        "114": 0.08373641967773438,
+        "115": 0.23418354988098145,
+        "116": 0.09569954872131348,
+        "117": 0.09155511856079102,
+        "118": 0.10282611846923828,
+        "119": 0.0950474739074707,
+        "120": 0.09298348426818848,
+        "121": 0.09208202362060547,
+        "122": 0.08935666084289551,
+        "123": 0.08887982368469238,
+        "124": 0.08789253234863281,
+        "125": 0.08884286880493164,
+        "126": 0.08997535705566406,
+        "127": 0.09005522727966309,
+        "128": 0.08833885192871094,
+        "129": 0.08933281898498535,
+        "130": 0.08679962158203125,
+        "131": 0.10296106338500977,
+        "132": 0.08611273765563965,
+        "133": 0.08463311195373535,
+        "134": 0.08539175987243652,
+        "135": 0.08352160453796387,
+        "136": 0.08343625068664551,
+        "137": 0.08258938789367676,
+        "138": 0.08250761032104492,
+        "139": 0.19622254371643066,
+        "140": 0.08159470558166504,
+        "141": 0.0782327651977539,
+        "142": 0.07907342910766602,
+        "143": 0.08478927612304688,
+        "144": 0.07864499092102051,
+        "145": 0.0792539119720459,
+        "146": 0.18338656425476074,
+        "147": 0.08014631271362305,
+        "148": 0.69565749168396,
+        "149": 0.6363608837127686,
+        "150": 0.9031152725219727,
+        "151": 0.20542621612548828,
+        "152": 0.08193445205688477,
+        "153": 0.08102607727050781,
+        "154": 0.07977724075317383,
+        "155": 0.07939600944519043,
+        "156": 0.07931661605834961,
+        "157": 0.07907629013061523,
+        "158": 0.07832551002502441,
+        "159": 0.07871723175048828,
+        "160": 0.07776045799255371,
+        "161": 0.07730722427368164,
+        "162": 0.07844686508178711,
+        "163": 0.19833779335021973,
+        "164": 0.0772542953491211,
+        "165": 0.0757131576538086,
+        "166": 0.07490086555480957,
+        "167": 0.07584619522094727,
+        "168": 0.0744776725769043,
+        "169": 1.0315945148468018,
+        "170": 1.3107872009277344,
+        "171": 1.4146301746368408,
+        "172": 0.21418142318725586,
+        "173": 0.0791623592376709,
+        "174": 0.07737874984741211,
+        "175": 0.07678866386413574,
+        "176": 0.07609796524047852,
+        "177": 0.07728052139282227,
+        "178": 0.07469582557678223,
+        "179": 0.07563614845275879,
+        "180": 0.07559847831726074,
+        "181": 0.07377743721008301,
+        "182": 0.07287478446960449,
+        "183": 0.07318425178527832,
+        "184": 0.07158946990966797,
+        "185": 2.527869462966919,
+        "186": 2.6099460124969482,
+        "187": 1.78334641456604,
+        "188": 1.89459228515625,
+        "189": 1.9104914665222168,
+        "190": 1.958031177520752,
+        "191": 1.3198285102844238,
+        "192": 1.269864797592163,
+        "193": 1.2433314323425293,
+        "194": 1.0903105735778809,
+        "195": 1.360588788986206,
+        "196": 1.250880241394043,
+        "197": 1.2524127960205078,
+        "198": 1.644801378250122,
+        "199": 0.8511452674865723,
+        "200": 1.1136143207550049,
+        "201": 0.8724162578582764,
+        "202": 1.1866650581359863,
+        "203": 1.3247902393341064,
+        "204": 0.8483455181121826,
+        "205": 0.6312274932861328,
+        "206": 0.6014068126678467,
+        "207": 1.2374866008758545,
+        "208": 0.7534198760986328,
+        "209": 0.9594993591308594,
+        "210": 0.9469635486602783,
+        "211": 0.9641509056091309,
+        "212": 0.8663432598114014,
+        "213": 3.009183406829834,
+        "214": 1.0396943092346191,
+        "215": 0.7984824180603027,
+        "216": 0.17783236503601074,
+        "217": 0.06225943565368652,
+        "218": 0.060774803161621094,
+        "219": 0.05928945541381836,
+        "220": 0.24637866020202637,
+        "221": 0.06404495239257812,
+        "222": 0.22346806526184082,
+        "223": 0.06480216979980469,
+        "224": 0.0645895004272461,
+        "225": 0.06363058090209961,
+        "226": 0.06328248977661133,
+        "227": 0.06242036819458008,
+        "228": 0.06318235397338867,
+        "229": 1.6552629470825195,
+        "230": 1.2632150650024414,
+        "231": 0.8365731239318848,
+        "232": 1.2418386936187744,
+        "233": 0.8554270267486572,
+        "234": 0.9738729000091553,
+        "235": 1.0701467990875244,
+        "236": 0.7097737789154053,
+        "237": 0.6790797710418701,
+        "238": 0.14983582496643066,
+        "239": 0.05509471893310547,
+        "240": 0.050878286361694336,
+        "241": 0.8841605186462402,
+        "242": 0.3933241367340088,
+        "243": 0.22792959213256836,
+        "244": 0.04949617385864258,
+        "245": 0.04952096939086914,
+        "246": 0.05038022994995117,
+        "247": 0.6477084159851074,
+        "248": 0.5835165977478027,
+        "249": 0.5800313949584961,
+        "250": 0.5683896541595459,
+        "251": 0.31120824813842773,
+        "252": 0.5027720928192139,
+        "253": 0.4422755241394043,
+        "254": 0.31992244720458984,
+        "255": 0.36255478858947754,
+        "256": 0.35657405853271484,
+        "257": 0.33772850036621094,
+        "258": 0.3386080265045166,
+        "259": 0.34012556076049805,
+        "260": 0.15085816383361816,
+        "261": 0.05148720741271973,
+        "262": 0.05298900604248047,
+        "263": 0.05052661895751953,
+        "264": 2.5608294010162354,
+        "265": 2.9931416511535645,
+        "266": 2.9447696208953857,
+        "267": 1.4360640048980713,
+        "268": 1.6053972244262695,
+        "269": 1.1670520305633545,
+        "270": 1.1040499210357666,
+        "271": 0.8980443477630615,
+        "272": 0.7682313919067383,
+        "273": 0.6307046413421631,
+        "274": 0.6291384696960449,
+        "275": 0.5907084941864014,
+        "276": 0.18748092651367188,
+        "277": 0.04793357849121094,
+        "278": 1.6707680225372314,
+        "279": 1.7784833908081055,
+        "280": 1.987504482269287,
+        "281": 1.8078405857086182,
+        "282": 1.618384838104248,
+        "283": 1.6029207706451416,
+        "284": 1.5615582466125488,
+        "285": 1.4430813789367676,
+        "286": 2.0162956714630127,
+        "287": 1.212592363357544,
+        "288": 1.1943233013153076,
+        "289": 1.6747024059295654,
+        "290": 1.5219881534576416,
+        "291": 1.9833567142486572,
+        "292": 2.4835267066955566,
+        "293": 2.0152361392974854,
+        "294": 1.4243245124816895,
+        "295": 1.8899140357971191,
+        "296": 1.7928037643432617,
+        "297": 1.8872904777526855,
+        "298": 1.8138470649719238,
+        "299": 1.3337900638580322,
+        "300": 1.0676732063293457,
+        "301": 0.8718364238739014,
+        "302": 0.6070051193237305,
+        "303": 0.15781474113464355,
+        "304": 0.6281187534332275,
+        "305": 0.6238014698028564,
+        "306": 0.6155686378479004,
+        "307": 0.6151483058929443,
+        "308": 0.3989708423614502,
+        "309": 0.6695563793182373,
+        "310": 0.3353080749511719,
+        "311": 0.3935401439666748,
+        "312": 0.37245631217956543,
+        "313": 0.42446160316467285,
+        "314": 0.3849034309387207,
+        "315": 0.3923039436340332,
+        "316": 0.42668724060058594,
+        "317": 0.07990217208862305,
+        "318": 0.026622295379638672,
+        "319": 0.025039196014404297,
+        "320": 0.23103761672973633,
+        "321": 0.061194419860839844,
+        "322": 0.023119211196899414,
+        "323": 0.02546072006225586,
+        "324": 0.02371954917907715,
+        "325": 0.2824256420135498,
+        "326": 0.21310210227966309,
+        "327": 0.2962150573730469,
+        "328": 0.2450408935546875,
+        "329": 0.28820061683654785,
+        "330": 0.14713835716247559,
+        "331": 0.1239326000213623,
+        "332": 0.12352395057678223,
+        "333": 0.11886882781982422,
+        "334": 0.1725168228149414,
+        "335": 0.041893959045410156,
+        "336": 0.028044462203979492,
+        "337": 0.015867948532104492,
+        "338": 0.0168306827545166,
+        "339": 0.027959346771240234,
+        "340": 0.015036344528198242,
+        "341": 0.26670098304748535,
+        "342": 0.16696405410766602,
+        "343": 0.03751349449157715,
+        "344": 0.014828920364379883,
+        "345": 0.19792628288269043,
+        "346": 0.21123790740966797,
+        "347": 0.03189897537231445,
+        "348": 0.012109994888305664,
+        "349": 0.010521888732910156,
+        "350": 0.011066675186157227,
+        "351": 0.010123491287231445,
+        "352": 0.009476423263549805,
+        "353": 0.008898019790649414,
+        "354": 0.008337974548339844,
+        "355": 0.007706165313720703,
+        "356": 0.17263436317443848,
+        "357": 0.007258176803588867,
+        "358": 0.00580596923828125,
+        "359": 0.13102412223815918,
+        "360": 0.09997034072875977,
+        "361": 0.003966331481933594,
+        "362": 0.0033533573150634766,
+        "363": 0.0026314258575439453,
+        "364": 0.001997709274291992
+    },
+    "optimization_time": {
+        "0": 0.01166,
+        "1": 0.01066,
+        "2": 0.00979,
+        "3": 0.01002,
+        "4": 0.01004,
+        "5": 0.01044,
+        "6": 0.00925,
+        "7": 0.00875,
+        "8": 0.008,
+        "9": 0.00798,
+        "10": 0.00745,
+        "11": 0.00784,
+        "12": 0.00775,
+        "13": 0.0078,
+        "14": 0.00594,
+        "15": 0.00425,
+        "16": 0.0042,
+        "17": 0.00419,
+        "18": 0.00328,
+        "19": 0.00374,
+        "20": 0.00307,
+        "21": 0.00527,
+        "22": 0.00437,
+        "23": 0.00431,
+        "24": 0.00426,
+        "25": 0.00421,
+        "26": 0.00472,
+        "27": 0.00463,
+        "28": 0.00502,
+        "29": 0.00532,
+        "30": 0.0053,
+        "31": 0.00516,
+        "32": 0.0052,
+        "33": 0.00599,
+        "34": 0.00529,
+        "35": 0.00585,
+        "36": 0.0054,
+        "37": 0.00565,
+        "38": 0.00488,
+        "39": 0.0044,
+        "40": 0.00457,
+        "41": 0.02509,
+        "42": 0.0136,
+        "43": 0.00129,
+        "44": 0.00117,
+        "45": 0.01392,
+        "46": 0.00406,
+        "47": 0.00123,
+        "48": 0.00395,
+        "49": 0.0037,
+        "50": 0.00367,
+        "51": 0.00364,
+        "52": 0.00114,
+        "53": 0.00263,
+        "54": 0.00264,
+        "55": 0.0026,
+        "56": 0.0035,
+        "57": 0.00261,
+        "58": 0.00263,
+        "59": 0.0034,
+        "60": 0.01643,
+        "61": 0.0164,
+        "62": 0.01611,
+        "63": 0.01675,
+        "64": 0.01658,
+        "65": 0.01111,
+        "66": 0.01101,
+        "67": 0.011,
+        "68": 0.01098,
+        "69": 0.01099,
+        "70": 0.06213,
+        "71": 0.00516,
+        "72": 0.00404,
+        "73": 0.00408,
+        "74": 0.00603,
+        "75": 0.00601,
+        "76": 0.0059,
+        "77": 0.00596,
+        "78": 0.00582,
+        "79": 0.004,
+        "80": 0.00401,
+        "81": 0.00353,
+        "82": 0.00385,
+        "83": 0.00367,
+        "84": 0.00367,
+        "85": 0.00356,
+        "86": 0.00354,
+        "87": 0.00385,
+        "88": 0.0035,
+        "89": 0.00342,
+        "90": 0.00484,
+        "91": 0.00473,
+        "92": 0.00472,
+        "93": 0.00467,
+        "94": 0.00464,
+        "95": 0.00463,
+        "96": 0.00452,
+        "97": 0.00453,
+        "98": 0.00453,
+        "99": 0.00452,
+        "100": 0.00449,
+        "101": 0.00447,
+        "102": 0.00445,
+        "103": 0.00445,
+        "104": 0.00443,
+        "105": 0.00477,
+        "106": 0.0045,
+        "107": 0.00287,
+        "108": 0.00283,
+        "109": 0.00392,
+        "110": 0.00395,
+        "111": 0.00395,
+        "112": 0.00446,
+        "113": 0.00443,
+        "114": 0.00435,
+        "115": 0.05469,
+        "116": 0.00462,
+        "117": 0.00452,
+        "118": 0.00438,
+        "119": 0.00479,
+        "120": 0.00426,
+        "121": 0.00471,
+        "122": 0.00435,
+        "123": 0.00369,
+        "124": 0.00347,
+        "125": 0.0034,
+        "126": 0.00369,
+        "127": 0.00361,
+        "128": 0.00355,
+        "129": 0.00353,
+        "130": 0.00348,
+        "131": 0.00419,
+        "132": 0.00343,
+        "133": 0.00338,
+        "134": 0.00331,
+        "135": 0.00327,
+        "136": 0.00327,
+        "137": 0.00336,
+        "138": 0.00329,
+        "139": 0.03617,
+        "140": 0.00328,
+        "141": 0.00153,
+        "142": 0.00181,
+        "143": 0.00301,
+        "144": 0.00286,
+        "145": 0.00158,
+        "146": 0.02774,
+        "147": 0.00329,
+        "148": 0.03941,
+        "149": 0.03829,
+        "150": 0.03542,
+        "151": 0.03276,
+        "152": 0.0036,
+        "153": 0.0036,
+        "154": 0.00343,
+        "155": 0.00348,
+        "156": 0.00346,
+        "157": 0.00341,
+        "158": 0.00338,
+        "159": 0.00397,
+        "160": 0.00385,
+        "161": 0.00388,
+        "162": 0.00352,
+        "163": 0.05059,
+        "164": 0.00335,
+        "165": 0.00329,
+        "166": 0.00322,
+        "167": 0.00318,
+        "168": 0.00315,
+        "169": 0.03696,
+        "170": 0.03671,
+        "171": 0.03748,
+        "172": 0.05919,
+        "173": 0.00412,
+        "174": 0.0041,
+        "175": 0.00369,
+        "176": 0.0036,
+        "177": 0.00375,
+        "178": 0.00386,
+        "179": 0.00428,
+        "180": 0.00426,
+        "181": 0.00364,
+        "182": 0.00356,
+        "183": 0.00361,
+        "184": 0.00352,
+        "185": 0.06249,
+        "186": 0.0406,
+        "187": 0.03908,
+        "188": 0.03983,
+        "189": 0.03739,
+        "190": 0.03857,
+        "191": 0.03741,
+        "192": 0.03751,
+        "193": 0.03591,
+        "194": 0.03677,
+        "195": 0.03601,
+        "196": 0.03591,
+        "197": 0.03538,
+        "198": 0.0352,
+        "199": 0.03545,
+        "200": 0.0361,
+        "201": 0.03266,
+        "202": 0.03455,
+        "203": 0.03335,
+        "204": 0.1011,
+        "205": 0.03153,
+        "206": 0.03013,
+        "207": 0.05737,
+        "208": 0.03955,
+        "209": 0.04106,
+        "210": 0.04225,
+        "211": 0.03853,
+        "212": 0.03818,
+        "213": 0.03583,
+        "214": 0.03764,
+        "215": 0.03472,
+        "216": 0.05921,
+        "217": 0.00428,
+        "218": 0.00418,
+        "219": 0.00398,
+        "220": 0.12786,
+        "221": 0.00592,
+        "222": 0.10198,
+        "223": 0.00617,
+        "224": 0.0066,
+        "225": 0.00649,
+        "226": 0.00638,
+        "227": 0.00639,
+        "228": 0.00625,
+        "229": 0.09208,
+        "230": 0.0647,
+        "231": 0.03469,
+        "232": 0.03296,
+        "233": 0.03357,
+        "234": 0.03144,
+        "235": 0.02927,
+        "236": 0.03053,
+        "237": 0.02984,
+        "238": 0.04999,
+        "239": 0.00287,
+        "240": 0.00276,
+        "241": 0.03445,
+        "242": 0.03183,
+        "243": 0.13254,
+        "244": 0.00278,
+        "245": 0.00278,
+        "246": 0.00277,
+        "247": 0.03686,
+        "248": 0.03001,
+        "249": 0.03034,
+        "250": 0.02933,
+        "251": 0.03011,
+        "252": 0.02945,
+        "253": 0.02815,
+        "254": 0.02971,
+        "255": 0.03058,
+        "256": 0.03043,
+        "257": 0.03131,
+        "258": 0.03078,
+        "259": 0.02955,
+        "260": 0.05699,
+        "261": 0.00562,
+        "262": 0.00491,
+        "263": 0.00485,
+        "264": 0.11196,
+        "265": 0.14914,
+        "266": 0.04037,
+        "267": 0.04156,
+        "268": 0.0421,
+        "269": 0.03619,
+        "270": 0.13557,
+        "271": 0.0326,
+        "272": 0.03321,
+        "273": 0.03177,
+        "274": 0.03114,
+        "275": 0.04466,
+        "276": 0.09731,
+        "277": 0.0038,
+        "278": 0.0363,
+        "279": 0.0358,
+        "280": 0.03543,
+        "281": 0.03928,
+        "282": 0.03969,
+        "283": 0.03866,
+        "284": 0.04152,
+        "285": 0.03865,
+        "286": 0.03724,
+        "287": 0.03688,
+        "288": 0.03434,
+        "289": 0.03225,
+        "290": 0.03249,
+        "291": 0.038,
+        "292": 0.0385,
+        "293": 0.03819,
+        "294": 0.03684,
+        "295": 0.03495,
+        "296": 0.035,
+        "297": 0.03544,
+        "298": 0.03364,
+        "299": 0.03147,
+        "300": 0.17702,
+        "301": 0.03221,
+        "302": 0.03134,
+        "303": 0.07786,
+        "304": 0.02836,
+        "305": 0.02926,
+        "306": 0.02884,
+        "307": 0.02862,
+        "308": 0.02756,
+        "309": 0.02707,
+        "310": 0.02581,
+        "311": 0.02461,
+        "312": 0.03043,
+        "313": 0.01857,
+        "314": 0.02271,
+        "315": 0.02393,
+        "316": 0.02214,
+        "317": 0.02471,
+        "318": 0.00173,
+        "319": 0.00096,
+        "320": 0.03373,
+        "321": 0.01445,
+        "322": 0.00095,
+        "323": 0.00202,
+        "324": 0.00247,
+        "325": 0.02683,
+        "326": 0.0182,
+        "327": 0.01729,
+        "328": 0.01737,
+        "329": 0.01334,
+        "330": 0.01137,
+        "331": 0.01103,
+        "332": 0.01062,
+        "333": 0.01027,
+        "334": 0.01204,
+        "335": 0.00949,
+        "336": 0.00069,
+        "337": 0.00075,
+        "338": 0.00149,
+        "339": 0.00143,
+        "340": 0.00069,
+        "341": 0.06741,
+        "342": 0.01539,
+        "343": 0.00985,
+        "344": 0.00172,
+        "345": 0.01605,
+        "346": 0.00782,
+        "347": 0.00888,
+        "348": 0.00149,
+        "349": 0.00047,
+        "350": 0.00146,
+        "351": 0.0011,
+        "352": 0.00108,
+        "353": 0.00104,
+        "354": 0.00101,
+        "355": 0.00095,
+        "356": 0.00819,
+        "357": 0.00047,
+        "358": 0.00036,
+        "359": 0.00468,
+        "360": 0.00398,
+        "361": 0.00034,
+        "362": 0.0003,
+        "363": 0.00027,
+        "364": 0.00027
+    },
+    "mipGap": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0,
+        "20": 0.0,
+        "21": 0.0,
+        "22": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "25": 0.0,
+        "26": 0.0,
+        "27": 0.0,
+        "28": 0.0,
+        "29": 0.0,
+        "30": 0.0,
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0,
+        "34": 0.0,
+        "35": 0.0,
+        "36": 0.0,
+        "37": 0.0,
+        "38": 0.0,
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0,
+        "42": 0.0,
+        "43": 0.0,
+        "44": 0.0,
+        "45": 0.0,
+        "46": 0.0,
+        "47": 0.0,
+        "48": 0.0,
+        "49": 0.0,
+        "50": 0.0,
+        "51": 0.0,
+        "52": 0.0,
+        "53": 0.0,
+        "54": 0.0,
+        "55": 0.0,
+        "56": 0.0,
+        "57": 0.0,
+        "58": 0.0,
+        "59": 0.0,
+        "60": 0.0,
+        "61": 0.0,
+        "62": 0.0,
+        "63": 0.0,
+        "64": 0.0,
+        "65": 0.0,
+        "66": 0.0,
+        "67": 0.0,
+        "68": 0.0,
+        "69": 0.0,
+        "70": 0.0,
+        "71": 0.0,
+        "72": 0.0,
+        "73": 0.0,
+        "74": 0.0,
+        "75": 0.0,
+        "76": 0.0,
+        "77": 0.0,
+        "78": 0.0,
+        "79": 0.0,
+        "80": 0.0,
+        "81": 0.0,
+        "82": 0.0,
+        "83": 0.0,
+        "84": 0.0,
+        "85": 0.0,
+        "86": 0.0,
+        "87": 0.0,
+        "88": 0.0,
+        "89": 0.0,
+        "90": 0.0,
+        "91": 0.0,
+        "92": 0.0,
+        "93": 0.0,
+        "94": 0.0,
+        "95": 0.0,
+        "96": 0.0,
+        "97": 0.0,
+        "98": 0.0,
+        "99": 0.0,
+        "100": 0.0,
+        "101": 0.0,
+        "102": 0.0,
+        "103": 0.0,
+        "104": 0.0,
+        "105": 0.0,
+        "106": 0.0,
+        "107": 0.0,
+        "108": 0.0,
+        "109": 0.0,
+        "110": 0.0,
+        "111": 0.0,
+        "112": 0.0,
+        "113": 0.0,
+        "114": 0.0,
+        "115": 0.0,
+        "116": 0.0,
+        "117": 0.0,
+        "118": 0.0,
+        "119": 0.0,
+        "120": 0.0,
+        "121": 0.0,
+        "122": 0.0,
+        "123": 0.0,
+        "124": 0.0,
+        "125": 0.0,
+        "126": 0.0,
+        "127": 0.0,
+        "128": 0.0,
+        "129": 0.0,
+        "130": 0.0,
+        "131": 0.0,
+        "132": 0.0,
+        "133": 0.0,
+        "134": 0.0,
+        "135": 0.0,
+        "136": 0.0,
+        "137": 0.0,
+        "138": 0.0,
+        "139": 0.0,
+        "140": 0.0,
+        "141": 0.0,
+        "142": 0.0,
+        "143": 0.0,
+        "144": 0.0,
+        "145": 0.0,
+        "146": 0.0,
+        "147": 0.0,
+        "148": 0.0,
+        "149": 0.0,
+        "150": 0.0,
+        "151": 0.0,
+        "152": 0.0,
+        "153": 0.0,
+        "154": 0.0,
+        "155": 0.0,
+        "156": 0.0,
+        "157": 0.0,
+        "158": 0.0,
+        "159": 0.0,
+        "160": 0.0,
+        "161": 0.0,
+        "162": 0.0,
+        "163": 0.0,
+        "164": 0.0,
+        "165": 0.0,
+        "166": 0.0,
+        "167": 0.0,
+        "168": 0.0,
+        "169": 0.0,
+        "170": 0.0,
+        "171": 0.0,
+        "172": 0.0,
+        "173": 0.0,
+        "174": 0.0,
+        "175": 0.0,
+        "176": 0.0,
+        "177": 0.0,
+        "178": 0.0,
+        "179": 0.0,
+        "180": 0.0,
+        "181": 0.0,
+        "182": 0.0,
+        "183": 0.0,
+        "184": 0.0,
+        "185": 0.0,
+        "186": 0.0,
+        "187": 0.0,
+        "188": 0.0,
+        "189": 0.0,
+        "190": 0.0,
+        "191": 0.0,
+        "192": 0.0,
+        "193": 0.0,
+        "194": 0.0,
+        "195": 0.0,
+        "196": 0.0,
+        "197": 0.0,
+        "198": 0.0,
+        "199": 0.0,
+        "200": 0.0,
+        "201": 0.0,
+        "202": 0.0,
+        "203": 0.0,
+        "204": 0.0,
+        "205": 0.0,
+        "206": 0.0,
+        "207": 0.0,
+        "208": 0.0,
+        "209": 0.0,
+        "210": 0.0,
+        "211": 0.0,
+        "212": 0.0,
+        "213": 0.0,
+        "214": 0.0,
+        "215": 0.0,
+        "216": 0.0,
+        "217": 0.0,
+        "218": 0.0,
+        "219": 0.0,
+        "220": 0.0,
+        "221": 0.0,
+        "222": 0.0,
+        "223": 0.0,
+        "224": 0.0,
+        "225": 0.0,
+        "226": 0.0,
+        "227": 0.0,
+        "228": 0.0,
+        "229": 0.0,
+        "230": 0.0,
+        "231": 0.0,
+        "232": 0.0,
+        "233": 0.0,
+        "234": 0.0,
+        "235": 0.0,
+        "236": 0.0,
+        "237": 0.0,
+        "238": 0.0,
+        "239": 0.0,
+        "240": 0.0,
+        "241": 0.0,
+        "242": 0.0,
+        "243": 0.0,
+        "244": 0.0,
+        "245": 0.0,
+        "246": 0.0,
+        "247": 0.0,
+        "248": 0.0,
+        "249": 0.0,
+        "250": 0.0,
+        "251": 0.0,
+        "252": 0.0,
+        "253": 0.0,
+        "254": 0.0,
+        "255": 0.0,
+        "256": 0.0,
+        "257": 0.0,
+        "258": 0.0,
+        "259": 0.0,
+        "260": 0.0,
+        "261": 0.0,
+        "262": 0.0,
+        "263": 0.0,
+        "264": 0.0,
+        "265": 0.0,
+        "266": 0.0,
+        "267": 0.0,
+        "268": 0.0,
+        "269": 0.0,
+        "270": 0.0,
+        "271": 0.0,
+        "272": 0.0,
+        "273": 0.0,
+        "274": 0.0,
+        "275": 0.0,
+        "276": 0.0,
+        "277": 0.0,
+        "278": 0.0,
+        "279": 0.0,
+        "280": 0.0,
+        "281": 0.0,
+        "282": 0.0,
+        "283": 0.0,
+        "284": 0.0,
+        "285": 0.0,
+        "286": 0.0,
+        "287": 0.0,
+        "288": 0.0,
+        "289": 0.0,
+        "290": 0.0,
+        "291": 0.0,
+        "292": 0.0,
+        "293": 0.0,
+        "294": 0.0,
+        "295": 0.0,
+        "296": 0.0,
+        "297": 0.0,
+        "298": 0.0,
+        "299": 0.0,
+        "300": 0.0,
+        "301": 0.0,
+        "302": 0.0,
+        "303": 0.0,
+        "304": 0.0,
+        "305": 0.0,
+        "306": 0.0,
+        "307": 0.0,
+        "308": 0.0,
+        "309": 0.0,
+        "310": 0.0,
+        "311": 0.0,
+        "312": 0.0,
+        "313": 0.0,
+        "314": 0.0,
+        "315": 0.0,
+        "316": 0.0,
+        "317": 0.0,
+        "318": 0.0,
+        "319": 0.0,
+        "320": 0.0,
+        "321": 0.0,
+        "322": 0.0,
+        "323": 0.0,
+        "324": 0.0,
+        "325": 0.0,
+        "326": 0.0,
+        "327": 0.0,
+        "328": 0.0,
+        "329": 0.0,
+        "330": 0.0,
+        "331": 0.0,
+        "332": 0.0,
+        "333": 0.0,
+        "334": 0.0,
+        "335": 0.0,
+        "336": 0.0,
+        "337": 0.0,
+        "338": 0.0,
+        "339": 0.0,
+        "340": 0.0,
+        "341": 0.0,
+        "342": 0.0,
+        "343": 0.0,
+        "344": 0.0,
+        "345": 0.0,
+        "346": 0.0,
+        "347": 0.0,
+        "348": 0.0,
+        "349": 0.0,
+        "350": 0.0,
+        "351": 0.0,
+        "352": 0.0,
+        "353": 0.0,
+        "354": 0.0,
+        "355": 0.0,
+        "356": 0.0,
+        "357": 0.0,
+        "358": 0.0,
+        "359": 0.0,
+        "360": 0.0,
+        "361": 0.0,
+        "362": 0.0,
+        "363": 0.0,
+        "364": 0.0
+    },
+    "total_runtime": 151.63351202011108
+}

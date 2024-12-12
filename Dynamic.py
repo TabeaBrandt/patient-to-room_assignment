@@ -34,12 +34,12 @@ def append_result(result, new_result):
                 first_new_entry = new_patient_assignments[pID][0]
                 if last_old_entry["start"] == first_new_entry["start"]:
                     patient_assignments[pID] = (
-                        patient_assignments[pID][:-1] + new_patient_assignments[pID]
+                        patient_assignments[pID][:-1] + [first_new_entry]
                     )
                 elif last_old_entry["roomName"] != first_new_entry["roomName"]:
                     assert (
                         last_old_entry["start"] < first_new_entry["start"]
-                    ), "something went wrong up with the new IP results"
+                    ), "something went wrong up with the new IP results" +'\n'+ str(patient_assignments[pID]) +'\n'+ str(new_patient_assignments[pID])
                     combined_entry = {
                         "start": last_old_entry["start"],
                         "end": first_new_entry["start"] - 1,
@@ -48,10 +48,10 @@ def append_result(result, new_result):
                     patient_assignments[pID] = (
                         patient_assignments[pID][:-1]
                         + [combined_entry]
-                        + new_patient_assignments[pID]
+                        + [first_new_entry]
                     )
             else:
-                patient_assignments[pID] = new_patient_assignments[pID]
+                patient_assignments[pID] = [new_patient_assignments[pID][0]]
         return patient_assignments
 
     def merge_information_per_day(information_per_day, new_information_per_day):
@@ -168,6 +168,7 @@ def dynamic(
     )
     from time import time
 
+    print(file, fileNameOut)
     startTime = time()
 
     with open(file + ".json") as f:
@@ -195,4 +196,4 @@ def dynamic(
 
 
 if __name__ == "__main__":
-    dynamic("instances/0", "dyn_out")
+    dynamic("2019/UC01", "dyn_test_out")

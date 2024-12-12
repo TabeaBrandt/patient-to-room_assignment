@@ -48,7 +48,7 @@ The following constraint types can be used:
 - fix_smax, fixes the objective values of single room entitlements to its maximum value, which is determined combinatorically
 - fix_smax_eq, variation of the above that enforces that the single room entitlement objective is bigger or equal to its maximum
 
-## Using the a computing cluster 
+## Using a computing cluster 
 The following is only relevant, if you wish to run experiments on a computing cluster. Note that this also requires that all of the dependencies mentioned above, including *Gurobi*, are installed at the cluster in question.
 
 We did our computational study on the [RWTH Aachen High Performance Computing Cluster](https://help.itc.rwth-aachen.de/service/rhr4fjjutttf/), which uses a Linux based job scheduling based on *slurm*. *Slurm* is an open source job management tool, the respective *slurm* files are are also given. 

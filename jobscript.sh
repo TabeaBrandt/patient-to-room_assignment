@@ -8,9 +8,11 @@
 #SBATCH --mem-per-cpu=3900
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=brandt@combi.rwth-aachen.de
+#SBATCH --partition=c23mm
 
-module --ignore_cache load "Python/3.10.4"
-module --ignore_cache load "Gurobi/10.0.0"
+module --ignore_cache load "GCCcore/.12.3.0"
+module --ignore_cache load "GCCcore/.13.2.0"
+module --ignore_cache load "Gurobi/11.0.0"
  
 path="$1" # e.g. '2019'
 instance="$2" # e.g. 'GC01'

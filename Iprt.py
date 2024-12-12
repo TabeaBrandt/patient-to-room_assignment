@@ -26,7 +26,7 @@ def fix_smax_eq(model, modelVars, useVarMrt, patients, rooms, firstDay, lastDay)
         isPrivate,
         isHospitalizedOnDay,
     )
-    from analize_instance import compute_max_single_rooms_for_private_patients
+    from analyze_instance import compute_max_single_rooms_for_private_patients
 
     for day in range(firstDay, lastDay + 1):
         hospitalizedPatients = filterPatients([isHospitalizedOnDay(day)], patients)
@@ -237,7 +237,7 @@ def IP_prt(
 
     def get_room(modelVars, patientID, day, roomNames):
         return list(
-            filter(lambda r: modelVars["x"][p["patientID"], r, day].x > 0.5, roomNames)
+            filter(lambda r: modelVars["x"][patientID, r, day].x > 0.5, roomNames)
         )[0]
 
     m = gp.Model(modelname)
@@ -267,7 +267,7 @@ def IP_prt(
         if pID in currentPatientAssignment.keys()
     ]
     transfersOfCurrentPatients = len(preAssignedPatientIDs) - gp.quicksum(
-        modelVars["x"][pID, currentPatientAssignment[pID]]
+        modelVars["x"][pID, currentPatientAssignment[pID],firstDay]
         for pID in preAssignedPatientIDs
     )
 
@@ -369,14 +369,6 @@ def IP_prt(
     for o in range(nObjectives):
         m.params.ObjNumber = o
         objPrios[m.ObjNName] = m.ObjNPriority
-
-    d = 8
-    for pID in filterPatients(
-        [isHospitalizedOnDay(d), isPrivate], patients, onlyIDs=True
-    ):
-        for r in roomNames:
-            if modelVars["s"][pID, r, d].x > 0.99:
-                print(pID, r, d)
 
     return {
         "model_name": {firstDay: m.ModelName},
