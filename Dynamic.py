@@ -91,32 +91,43 @@ def assign_patients(
     )
     from Iprt import IP_prt, fix_smax, single_room_capacity_sex_separation_constraint
 
-    newResult = IP(
-        patients,
-        day,
-        lastDay,
-        rooms,
-        modelname="P",
-        currentPatientAssignment=currentPatientAssignment,
-        constraints=[single_room_capacity_sex_separation_constraint_pr, fix_smax],
-        fPrio={"ftrans": 0, "fpriv": 0},
-        fWeight={"ftrans": 0, "fpriv": 0},
-        timeLimit=10,
-    )
-    if not newResult:
+    newResult = None
+
+    # Only run the first two models if all room have two beds or less.
+    # This is done as the amount of private patients that can be assigned to a single room cannot
+    # be computed if there is a room with more than two beds. This check can be removed once a new way
+    # of computing this target has been implemented.
+    if all(room["capacity"] <= 2 for room in rooms):
+
         newResult = IP(
             patients,
             day,
             lastDay,
             rooms,
+            modelname="P",
             currentPatientAssignment=currentPatientAssignment,
-            modelname="P*",
-            fPrio={"ftrans": 0, "fpriv": 0},
-            fWeight={"ftrans": 1, "fpriv": 0},
             constraints=[single_room_capacity_sex_separation_constraint_pr, fix_smax],
-            current_assignment_condition=allow_transfers_of_hospitalized_patients,
+            fPrio={"ftrans": 0, "fpriv": 0},
+            fWeight={"ftrans": 0, "fpriv": 0},
             timeLimit=10,
         )
+        if not newResult:
+            newResult = IP(
+                patients,
+                day,
+                lastDay,
+                rooms,
+                currentPatientAssignment=currentPatientAssignment,
+                modelname="P*",
+                fPrio={"ftrans": 0, "fpriv": 0},
+                fWeight={"ftrans": 1, "fpriv": 0},
+                constraints=[single_room_capacity_sex_separation_constraint_pr, fix_smax],
+                current_assignment_condition=allow_transfers_of_hospitalized_patients,
+                timeLimit=10,
+            )
+
+    # Continue with the last two models if there is a room with more than two beds or the previous
+    # two models coudn't produce a result.
     if not newResult:
         newResult = IP(
             patients,
