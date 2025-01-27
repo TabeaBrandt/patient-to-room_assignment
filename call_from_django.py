@@ -1,5 +1,6 @@
 import json
 import sys
+import os
 
 from Dynamic import assign_patients
 
@@ -23,7 +24,13 @@ def call_from_django(file, last_day):
 
     result = assign_patients(patients, 0, last_day, rooms, current_assignment)
 
-    with open(f"Results/{file}_out.json", "w", encoding="utf-8") as out:
+    # Make sure that the output directory exists
+    output_file = f"Results/{file}_out.json"
+    directory = os.path.dirname(output_file)
+    os.makedirs(directory, exist_ok=True)
+
+    # Save the generated output
+    with open(output_file, "w", encoding="utf-8") as out:
         out.write(json.dumps(result, indent=4))
 
 
