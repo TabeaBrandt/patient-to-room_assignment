@@ -1,3 +1,45 @@
+def compute_total_wmin_score(file, scoringFkt,days=365, path='2019/'):
+    import os.path
+    from filter import (
+        filterPatients,
+        isHospitalizedOnDay,
+    )
+    
+    if os.path.isfile(path+file+'.json'):
+        data = read_json(path+file)
+    res = 0
+    nRooms = len(data["rooms"])
+    for t in range(days):
+        res += compute_wmin_score(filterPatients([isHospitalizedOnDay(t)],data["patients"]), nRooms, scoringFkt)
+    return res
+    
+def compute_wmin_score(hospitalizedPatients, nRooms, scoringFkt):
+    import networkx as nx
+
+    from filter import (
+        filterPatients,
+        isFemale,
+        isMale,
+    )
+    from math import ceil
+    females = filterPatients([isFemale],hospitalizedPatients)
+    nf = len(females)
+    males = filterPatients([isMale],hospitalizedPatients)
+    nm = len(males)
+
+    k = 2*nRooms - nf - nm
+    alpha = max(nf+nm-2*nRooms,0)
+    edges = [(females[i]["id"],females[j]["id"],scoringFkt(females[i],females[j])) for i in range(nf) for j in range(i+1,nf)]
+    edges+= [(males[i]["id"],males[j]["id"],scoringFkt(males[i],males[j])) for i in range(nm) for j in range(i+1,nm)]
+    edges+= [(str(x),p["id"],0) for p in hospitalizedPatients for x in range(k)]
+    edges+= [(str(x),str(y),0) for x in range(alpha,k) for y in range(alpha,k)]
+
+    G = nx.Graph()
+    G.add_weighted_edges_from(edges)
+    wmin = sum(G.edges[edge]["weight"] for edge in nx.min_weight_matching(G))
+
+    return wmin
+
 def is_instance_feasible(filename):
     data = read_json(filename)
     if is_capacity_two(filename):
@@ -150,6 +192,23 @@ def is_capacity_of_all_wards_in_one_two(wardNames):
             break
     print(res)
 
+def count_rooms_of_capacity(filename,k):
+    data = read_json(filename)
+    res = 0
+    for r in data["rooms"]:
+        if r["capacity"] == k:
+            res += 1
+    return res
+
+def get_room_capacities(wardNames):
+    res = []
+    for filename in wardNames:
+        res.append((count_rooms_of_capacity('2019/'+filename,1),count_rooms_of_capacity('2019/'+filename,2)))
+        if not res:
+            print(filename, "capacity inconsistent")
+            break
+    print(res)
+
 
 def is_capacity_two(filename):
     res = True
@@ -161,6 +220,7 @@ def is_capacity_two(filename):
 
 
 def get_smax_for_all_instances(allFiles):
+    from time import time
     for filename in allFiles:
         startTime = time()
         data = read_json(filename)
@@ -177,15 +237,18 @@ def read_json(filename):
 
 
 if __name__ == "__main__":
-    from time import time
+#    from time import time
     from filter import (
         filterPatients,
         isHospitalizedOnDay,
     )
+    from Ipr import weighted_age_pref,pre_post_surgery_pref,age_classes_pref,absolut_age_difference_pref,bounded_age_difference_pref
 
-    folder = "instances"
-    wardNames = ["0"]
+    folder = "instances/load_50"
+    wardNames = ["1"]
     allFiles = [folder + "/" + w for w in wardNames]
     is_capacity_of_all_wards_in_one_two(allFiles)
     are_all_wards_feasible(allFiles)
     get_smax_for_all_instances(allFiles)
+    for ward in wardNames:
+        print(compute_total_wmin_score(ward,weighted_age_pref,path=folder+"/"))

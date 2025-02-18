@@ -1,11 +1,12 @@
 from Iprt import IP_prt
 from Iprt import (
-    capacity_constraint,
-    sex_separation_constraint,
-    capacity_sex_separation_constraint,
-    single_room_constraint,
     single_room_capacity_sex_separation_constraint,
+    fix_smax,
+    optimize_preferences_prt,
+    fix_wmin_prt,
+    optimize_smax,
 )
+from Ipr import single_room_capacity_sex_separation_constraint_pr, fix_wmin, weighted_age_pref, are_potential_roommates, pre_post_surgery_pref, optimize_preferences, bounded_age_difference_pref
 
 
 def static(
@@ -15,10 +16,12 @@ def static(
     lastDay=364,
     timeLimit=12 * 60 * 60,
     ip_fkt=IP_prt,
-    fPrio={"ftrans": 0, "fpriv": 1},
-    fWeight={"ftrans": -1, "fpriv": 1},
+    fPrio={"ftrans": 0, "fpriv": 1, "fpref": -1},
+    fWeight={"ftrans": -1, "fpriv": 1, "fpref": -1},
     constraints=[],
-    useVarMrt=False,
+    preference_setup=[],
+    get_pref=weighted_age_pref,
+    roommates=True,
 ):
     import json
     import codecs
@@ -36,8 +39,7 @@ def static(
     patients = filterPatients(
         [isHospitalizedInInterval(firstDay, lastDay)], d["patients"]
     )
-    result = init_result()
-    newResult = ip_fkt(
+    result = ip_fkt(
         patients,
         firstDay,
         lastDay,
@@ -46,14 +48,12 @@ def static(
         fPrio=fPrio,
         fWeight=fWeight,
         constraints=constraints,
-        useVarMrt=useVarMrt,
+        preference_setup=preference_setup,
+        get_pref=get_pref,
+        roommates=roommates,
     )
     endTime = time()
-    if not newResult:
-        newResult = {"status": "infeasible"}
-    newResult["runtime"] = {firstDay: endTime - startTime}
-    result = append_result(result, newResult)
-
+    result ["runtime"] = {firstDay: endTime - startTime}
     endTime = time()
     result["total_runtime"] = endTime - startTime
     with codecs.open(
@@ -63,19 +63,21 @@ def static(
 
 
 if __name__ == "__main__":
-    from Ipr import IP, capacity_constraint_pr,sex_separation_constraint_pr
+    from Ipr import IP
     from Iprt import IP_prt
 
     static(
-        "2019/AU01",
-        "testout",
-        timeLimit=60,
+        "instances/load_50/1",
+        "testout_fix",
+        timeLimit=20,
         constraints=[
-            capacity_constraint_pr,
-            sex_separation_constraint_pr,
+           single_room_capacity_sex_separation_constraint,
+           fix_smax,
         ],
-        useVarMrt=True,
-        ip_fkt=IP,
-        fPrio={"ftrans": 0, "fpriv": 0},
-        fWeight={"ftrans": 0, "fpriv": 0},
+        ip_fkt=IP_prt,
+        roommates=True,
+        preference_setup=[optimize_preferences_prt,],
+#        preference_setup=[fix_wmin_prt],
+        get_pref=bounded_age_difference_pref,
+        fPrio={"ftrans": 0, "fpriv": 1, "fpref": 2},
     )

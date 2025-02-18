@@ -3,16 +3,15 @@
 #SBATCH --job-name=PRA
 #SBATCH --output=SlurmLog/PRA_Output-%j.txt
 #
-#SBATCH --cpus-per-task=32
-#SBATCH --time=12:10:00
-#SBATCH --mem-per-cpu=3900
+#SBATCH --cpus-per-task=16
+#SBATCH --time=4:10:00
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=brandt@combi.rwth-aachen.de
-#SBATCH --partition=c23mm
 
-module --ignore_cache load "GCCcore/.12.3.0"
-module --ignore_cache load "GCCcore/.13.2.0"
+module --ignore_cache load "Python/3.10.4"
+module --ignore_cache load "GCC/13.2.0"
 module --ignore_cache load "Gurobi/11.0.0"
+module --ignore_cache load "networkx/3.2.1"
  
 path="$1" # e.g. '2019'
 instance="$2" # e.g. 'GC01'

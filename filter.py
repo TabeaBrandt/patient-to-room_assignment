@@ -21,10 +21,11 @@ def is50Plus(p):
 def __isHospitalizedOnDay(p, d):
     return (p["admission"] <= d) and (d < p["discharge"])
 
-
 def isHospitalizedOnDay(d):
     return lambda p: __isHospitalizedOnDay(p, d)
 
+def isnotHospitalizedOnDay(d):
+    return lambda p: not __isHospitalizedOnDay(p, d)
 
 def __isRegisteredOnDay(p, d):
     return (p["registration"] <= d) and (d < p["discharge"])
